@@ -13,12 +13,21 @@
         });
     })
 
-    export let Name, Class, SVG, Alt
+    export let Name: string, Class: string, SVG: string, Alt: string
 </script>
 
-<div class='Card' bind:this={TiltCard}>
-    <p>{Name}</p>
-    <div class={Class}>
-      <img src={SVG} alt={Alt}>
+<button>
+    <div class='Card' bind:this={TiltCard}>
+        <p>{Name}</p>
+        <div class={Class}>
+            <img src={SVG} alt={Alt}>
+        </div>
     </div>
-</div>
+</button>
+
+<style lang='scss'>
+    button {
+        background-color: transparent;
+        border: none;
+    }
+</style>
