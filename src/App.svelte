@@ -1,7 +1,7 @@
 <script lang="ts">
   import { fly } from "svelte/transition";
   import { Header, Home, Skills, Projects, Education, Resume } from "./routes/+pages"
-  import { Mainn } from "./store/Main";
+  import { Main } from "./store/Main";
   import Lenis from 'lenis'
 
   // Initialize Lenis
@@ -9,11 +9,11 @@
     autoRaf: true,
   });
 
-let Main = Home
+  // let Main = Home
 
-  Mainn.subscribe(value => {
-    let Main = value
-  })
+  function UpdateMain(Name: any) {
+    $Main = Name
+  }
 </script>
 
 <header class="fixed top-0 z-2" in:fly={{y: -100, duration: 1000}}>
@@ -21,36 +21,36 @@ let Main = Home
     <div slot='Div1' class='Menu-Buttons-1'>
       <div class="Button-Black">
         <img src="Icons/Header/Home.svg" alt="Home">
-        <button on:click={() => (Main = Home)}>Home</button>
+        <button on:click={() => (UpdateMain(Home))}>Home</button>
       </div>
       <div class="Button-Black">
         <img class='SVG' src="Icons/Header/Skills.svg" alt="Skills">
-        <button on:click={() => (Main = Skills)}>Skills</button>
+        <button on:click={() => (UpdateMain(Skills))}>Skills</button>
       </div>
       <div class="Button-Black">
         <img class='SVG' src="Icons/Header/Projects.svg" alt="Skills">
-        <button on:click={() => (Main = Projects)}>Projects</button>
+        <button on:click={() => (UpdateMain(Projects))}>Projects</button>
       </div>
       <div class="Button-Black">
         <img class='SVG' src="Icons/Header/Education.svg" alt="Skills">
-        <button on:click={() => (Main = Education)}>Education</button>
+        <button on:click={() => (UpdateMain(Education))}>Education</button>
       </div>
       <div class="Button-Black">
         <img class='SVG' src="Icons/Header/Resume.svg" alt="Skills">
-        <button on:click={() => (Main = Resume)}>Resume</button>
+        <button on:click={() => (UpdateMain(Resume))}>Resume</button>
       </div>
     </div>
     <div slot='Div2' class='Menu-Buttons-2'>
-      <button class='Button' on:click={() => (Main = Home)}>Home</button>
-      <button class='Button' on:click={() => (Main = Skills)}>Skills</button>
-      <button class='Button' on:click={() => (Main = Projects)}>Projects</button>
-      <button class='Button' on:click={() => (Main = Education)}>Education</button>
-      <button class='Button' on:click={() => (Main = Resume)}>Resume</button>
+      <button class='Button' on:click={() => (UpdateMain(Home))}>Home</button>
+      <button class='Button' on:click={() => (UpdateMain(Skills))}>Skills</button>
+      <button class='Button' on:click={() => (UpdateMain(Projects))}>Projects</button>
+      <button class='Button' on:click={() => (UpdateMain(Education))}>Education</button>
+      <button class='Button' on:click={() => (UpdateMain(Resume))}>Resume</button>
     </div>
   </Header>
 </header>
 <main class='z-1'>
-  <svelte:component this={Main}></svelte:component>
+  <svelte:component this={$Main}></svelte:component>
 </main>
 
 <style lang='scss'>
