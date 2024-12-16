@@ -1,0 +1,80 @@
+.Projects {
+    .CardProject {
+        border: .6px solid rgb(255, 255, 255, .4);
+        @apply flex flex-wrap flex-col gap-y-2 rounded-3 p-6;
+        @apply w-[70vw] md:w-[34vw] lg:w-[25vw];
+    }
+
+    .CardProject:hover {
+        border: .6px solid rgb(255, 255, 255, .8);
+    }
+
+    hr {
+        border: none;
+        border-bottom: .4px solid rgb(255, 255, 255, .5);
+    }
+
+    .CP0 {
+        @apply w-[25vw];
+
+        img {
+            @apply w-11;
+        }
+    }
+
+    .CP1 {
+        @apply flex justify-between items-center;
+        @apply w-100%;
+
+        .CP1Div {
+            @apply flex items-center gap-x-2;
+
+            a {
+                border: .4px solid rgb(255, 255, 255, .5);
+                @apply flex rounded-2 items-center p-1;
+
+                img {
+                    @apply w-5;
+                }        
+            }
+        }
+    }
+
+    .CP2 {
+        @apply flex gap-2 items-center;
+        @apply w-100%;
+    }
+
+    .CP3 {
+        @apply flex gap-2 items-center;
+        @apply w-100%;
+    }
+
+    .CP4 {
+        @apply h-[25vh] p-t-2 p-b-10;
+
+        .Details {
+            @apply text-justify;
+        }
+    }
+
+    .CP5 {
+        @apply flex justify-between items-center;
+        @apply w-100%;
+
+        div {
+            border: .5px solid rgb(255, 255, 255, .5);
+            @apply p-2 rounded-4 text-3;
+        }
+    }
+
+    .CP6 {
+        @apply flex flex-wrap gap-x-2 items-center;
+        @apply h-[10vh] w-100%;
+
+        div {
+            border: .5px solid rgb(255, 255, 255, .5);
+            @apply p-2 rounded-2 w-4 h-4;
+        }
+    }
+}

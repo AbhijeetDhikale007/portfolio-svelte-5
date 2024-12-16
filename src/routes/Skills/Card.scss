@@ -1,0 +1,118 @@
+.Card {
+    border: .3px solid rgb(255, 255, 255, .3);
+    border-radius: 18px;
+    @apply flex grow-1 shrink-1 items-center justify-between overflow-hidden;
+    @apply h-19 min-h-14 max-h-22 min-w-[72vw] w-[76vw] max-w-[84vw];
+    @apply md:max-h-22 md:h-19 md:min-h-16 md:max-w-[42vw] md:min-w-[33vw] md:w-[36vw];
+    @apply lg:min-w-68 lg:max-w-80 lg:w-76 lg:min-h-18 lg:max-h-19;
+    @apply xl:w-[24vw] xl:min-w-[22vw] xl:max-w-[26vw];
+
+    p {
+        @apply px-6;
+    }
+
+    .SVG {
+        @apply grid rounded-5 w-32 h-20 px-0.2 overflow-hidden;
+        // border: 2px solid #fff;
+    }
+
+    img {
+        @apply w-20 h-20 justify-self-end;
+    }
+
+    .C {
+        background: linear-gradient(to right, transparent 0%, #394AAB 100%);
+    }
+
+    .CPlus {
+        background: linear-gradient(to right, transparent 0%, #00599C 100%);
+    }
+
+    .TypeScript {
+        background: linear-gradient(to right, transparent 0%, #00599C 100%);
+    }
+
+    .Javascript {
+        background: linear-gradient(to right, transparent 0%, #F0DB4F 100%);
+    }
+
+    .HTML {
+        background: linear-gradient(to right, transparent 0%, #E14E1D 100%);
+    }
+
+    .CSS {
+        background: linear-gradient(to right, transparent 0%, #0277BD 100%);
+    }
+
+    .SCSS {
+        background: linear-gradient(to right, transparent 0%, #5f3d4e 100%);
+    }
+
+    .Tailwind {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .UnoCSS {
+        background: linear-gradient(to right, transparent 0%, #4D4D4D 100%);
+    }
+
+    .Bootstrap {
+        background: linear-gradient(to right, transparent 0%, #7811F7 100%);
+    }
+
+    .Wordpress {
+        background: linear-gradient(to right, transparent 0%, #0073AA 100%);
+    }
+
+    .Webflow {
+        background: linear-gradient(to right, transparent 0%, #0073AA 100%);
+    }
+
+    .Svelte {
+        background: linear-gradient(to right, transparent 0%, #791f01 100%);
+    }
+
+    .React {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .Angular {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .Threejs {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .MySQL {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .Postman {
+        background: linear-gradient(to right, transparent 0%, #FF6C37 100%);
+    }
+
+    .VSCode {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .GitHub {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .ProjectIDX {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .Eclipse {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+
+    .InteliJ {
+        background: linear-gradient(to right, transparent 0%, #242938 100%);
+    }
+}
+
+.Card:hover {
+    border: 1.2px solid #fff;
+}
