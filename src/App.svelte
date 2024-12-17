@@ -4,7 +4,7 @@
   import { Main } from "./store/Store";
   import Lenis from 'lenis'
 
-  // Initialize Lenis
+  // Lenis - Smooth Scrolling
   const lenis = new Lenis({
     autoRaf: true,
   });
@@ -18,7 +18,7 @@
 </main>
 
 <style lang='scss'>
-    main {
-      display: flex;
-    }
+  main {
+    display: flex;
+  }
 </style>
