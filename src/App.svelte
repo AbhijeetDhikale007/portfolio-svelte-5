@@ -1,7 +1,7 @@
 <script lang="ts">
   import { fly } from "svelte/transition";
   import { Header, Home, Skills, Projects, Education, Resume } from "./routes/+pages"
-  import { Main } from "./store/Main";
+  import { Main } from "./store/Store";
   import Lenis from 'lenis'
 
   // Initialize Lenis
