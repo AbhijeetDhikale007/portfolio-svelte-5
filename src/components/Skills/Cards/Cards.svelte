@@ -1,6 +1,12 @@
 <script lang='ts'>
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
+    import { PageSkill } from "../../../store/Store"
+    import CardPage from "../../../routes/Skills/Pages/CardPage.svelte"
+
+    function UpdateSkillPage(Page: any) {
+        $PageSkill = Page
+    }
 
     let TiltCard: HTMLElement;
 
@@ -16,7 +22,7 @@
     export let Name: string, Class: string, SVG: string, Alt: string
 </script>
 
-<button>
+<button on:click={() => UpdateSkillPage(CardPage)}>
     <div class='Card' bind:this={TiltCard}>
         <p>{Name}</p>
         <div class={Class}>

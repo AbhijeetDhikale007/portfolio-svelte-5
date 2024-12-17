@@ -1,6 +1,6 @@
 <script lang="ts">
   import { fly } from "svelte/transition";
-  import { Header, Home, Skills, Projects, Education, Resume } from "./routes/+pages"
+  import { Header, Home, SkillsPage, Projects, Education, Resume } from "./routes/+pages"
   import { Main } from "./store/Store";
   import Lenis from 'lenis'
 
@@ -11,6 +11,7 @@
 
   // let Main = Home
 
+  $Main = Home
   function Routing(Name: any) {
     $Main = Name
   }
@@ -25,7 +26,7 @@
       </div>
       <div class="Button-Black">
         <img class='SVG' src="Icons/Header/Skills.svg" alt="Skills">
-        <button on:click={() => (Routing(Skills))}>Skills</button>
+        <button on:click={() => (Routing(SkillsPage))}>Skills</button>
       </div>
       <div class="Button-Black">
         <img class='SVG' src="Icons/Header/Projects.svg" alt="Skills">
@@ -42,7 +43,7 @@
     </div>
     <div slot='Div2' class='Menu-Buttons-2'>
       <button class='Button' on:click={() => (Routing(Home))}>Home</button>
-      <button class='Button' on:click={() => (Routing(Skills))}>Skills</button>
+      <button class='Button' on:click={() => (Routing(SkillsPage))}>Skills</button>
       <button class='Button' on:click={() => (Routing(Projects))}>Projects</button>
       <button class='Button' on:click={() => (Routing(Education))}>Education</button>
       <button class='Button' on:click={() => (Routing(Resume))}>Resume</button>
