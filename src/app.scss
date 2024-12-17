@@ -146,13 +146,13 @@ html.lenis, html.lenis body {
 .Button:hover {
   color: #000;
   background: #fff;
-  /* text-shadow: 2px 0px 4px #ffffff; */
-  box-shadow: 3px 3px #000;
+  // text-shadow: 2px 0px 4px #ffffff;
+  // box-shadow: 3px 3px #000;
 }
 
-.Button:active {
-  color: #ff0000;
-  border-bottom: 1px solid #fff;
+.Button:focus {
+  color: rgb(0, 250, 250);
+  border-bottom: .5px solid rgb(0, 250, 250);
 }
 
 /* a:link, a:visited {
