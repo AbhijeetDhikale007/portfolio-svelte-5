@@ -1,8 +1,8 @@
 const Skill1 = [
-    { name: 'C', class: 'SVG C', SVG: 'Icons/CLang.svg', Alt: 'C' },
-    { name: 'C++', class: 'SVG CPlus', SVG: 'Icons/C++.svg', Alt: 'C++' },
-    { name: 'TypeScript', class: 'SVG TypeScript', SVG: 'Icons/TypeScript.svg', Alt: 'TypeScript' },
-    { name: 'JavaScript', class: 'SVG Javascript', SVG: 'Icons/Javascript.svg', Alt: 'JavaScript' }
+    { Page: 'HTML' , name: 'C', class: 'SVG C', SVG: 'Icons/CLang.svg', Alt: 'C' },
+    { Page: '', name: 'C++', class: 'SVG CPlus', SVG: 'Icons/C++.svg', Alt: 'C++' },
+    { Page: '', name: 'TypeScript', class: 'SVG TypeScript', SVG: 'Icons/TypeScript.svg', Alt: 'TypeScript' },
+    { Page: '', name: 'JavaScript', class: 'SVG Javascript', SVG: 'Icons/Javascript.svg', Alt: 'JavaScript' }
 ]
 
 const Skill2 = [
