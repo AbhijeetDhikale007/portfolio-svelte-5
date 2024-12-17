@@ -1,8 +1,7 @@
 <script lang="ts">
     import './Menu.scss'
-    import { Home, SkillsPage, Projects, Education, Resume } from "../../routes/+pages"
+    import { Home, SkillsPage, Skills, Projects, Education, Resume } from "../../routes/+pages"
     import { Main, PageSkill } from "../../store/Store"
-    import Skills from "../../routes/Skills/Skills.svelte"
 
     let isOpen: boolean = false
 
