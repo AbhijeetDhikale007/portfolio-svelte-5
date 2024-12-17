@@ -32,7 +32,11 @@ nav {
 }
 
 .Menu-Button {
-  @apply flex justify-center items-center border-none bg-black rounded-2 p-1;
+  @apply flex justify-center items-center border-none bg-white text-black rounded-1.8 p-1.8;
+
+  img {
+    filter: invert(1);
+  }
 }
 
 .Menu-Button:hover {
