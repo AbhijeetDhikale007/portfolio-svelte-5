@@ -32,5 +32,9 @@ nav {
 }
 
 .Menu-Button {
-  @apply border-none bg-black;
+  @apply flex justify-center items-center border-none bg-black rounded-2 p-1;
+}
+
+.Menu-Button:hover {
+    filter: invert(1);
 }

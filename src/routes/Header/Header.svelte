@@ -5,6 +5,15 @@
 
     let isOpen: boolean = false
 
+    function MenuHandler() {
+        if (isOpen == false) {
+            isOpen = true
+        }
+        else {
+            isOpen = false
+        }
+    }
+
     $Main = Home
     function Routing(Name: any) {
         $Main = Name
@@ -44,11 +53,10 @@
         </div>
         <nav>
             <div class="Menu-Container">
-                <button class='Menu-Button' on:click={() => (isOpen = true)}><img class='w-6 h-6' src="Icons/Menu.svg" alt="Menu"></button>
+                <button class='Menu-Button' on:click={() => (MenuHandler())}><img class='w-6 h-6' src="Icons/Menu.svg" alt="Menu"></button>
                 {#if isOpen == true}
                     <div class='Menu-Wrapper'>
                         <div class='Menu'>
-                            <button class='Menu-Button ml-6' on:click={() => (isOpen = false)}><img class='w-6 h-6' src="Icons/Close.svg" alt="Close"></button>
                             <div class='Menu-Buttons-1'>
                                 <button class="Button-Black" on:click={() => (RoutingPhone(Home))}>
                                   <img src="Icons/Header/Home.svg" alt="Home">
