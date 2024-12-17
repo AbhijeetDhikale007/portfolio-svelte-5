@@ -1,7 +1,31 @@
 <script lang="ts">
     import './Menu.scss'
+    import { Home, SkillsPage, Projects, Education, Resume } from "../../routes/+pages"
+    import { Main, PageSkill } from "../../store/Store"
+    import Skills from "../../routes/Skills/Skills.svelte"
 
-    let isOpen: boolean = false;
+    let isOpen: boolean = false
+
+    $Main = Home
+    function Routing(Name: any) {
+        $Main = Name
+    }
+
+    function UpdateSkill() {
+        $PageSkill = Skills
+        $Main = SkillsPage
+    }
+
+    function RoutingPhone(Name: any) {
+        isOpen = false
+        $Main = Name
+    }
+
+    function UpdateSkillPhone() {
+        $PageSkill = Skills
+        $Main = SkillsPage
+        isOpen = false
+    }
 </script>
 
 <div class='z-4'>
@@ -26,12 +50,39 @@
                     <div class='Menu-Wrapper'>
                         <div class='Menu'>
                             <button class='Menu-Button ml-6' on:click={() => (isOpen = false)}><img class='w-6 h-6' src="Icons/Close.svg" alt="Close"></button>
-                            <slot name='Div1'></slot>
+                            <div class='Menu-Buttons-1'>
+                                <button class="Button-Black" on:click={() => (RoutingPhone(Home))}>
+                                  <img src="Icons/Header/Home.svg" alt="Home">
+                                  <p>Home</p>
+                                </button>
+                                <button class="Button-Black" on:click={() => (UpdateSkillPhone())}>
+                                  <img class='SVG' src="Icons/Header/Skills.svg" alt="Skills">
+                                  <p>Skills</p>
+                                </button>
+                                <button class="Button-Black" on:click={() => (RoutingPhone(Projects))}>
+                                  <img class='SVG' src="Icons/Header/Projects.svg" alt="Projects">
+                                  <p>Project</p>
+                                </button>
+                                <button class="Button-Black" on:click={() => (RoutingPhone(Education))}>
+                                  <img class='SVG' src="Icons/Header/Education.svg" alt="Education">
+                                  <p>Education</p>
+                                </button>
+                                <button class="Button-Black" on:click={() => (RoutingPhone(Resume))}>
+                                  <img class='SVG' src="Icons/Header/Resume.svg" alt="Resume">
+                                  <p>Resume</p>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 {/if}
             </div>
-            <slot name='Div2' class='Links'></slot>
+            <div class='Menu-Buttons-2'>
+                <button class='Button' on:click={() => (Routing(Home))}>Home</button>
+                <button class='Button' on:click={() => (UpdateSkill())}>Skills</button>
+                <button class='Button' on:click={() => (Routing(Projects))}>Projects</button>
+                <button class='Button' on:click={() => (Routing(Education))}>Education</button>
+                <button class='Button' on:click={() => (Routing(Resume))}>Resume</button>
+            </div>            
         </nav>
     </div>
 </div>
@@ -57,6 +108,12 @@
             // border: 2px solid red;
             @apply ml-[4vw] lg:ml-[10vw];
             @apply flex pointer-events-none z-1 items-center select-none;
+        }
+
+        .Menu-Buttons-1 {
+            img {
+                @apply h-6 w-6;
+            }
         }
     }
 
