@@ -1,10 +1,20 @@
 <script lang='ts'>
     import CardPage from "./CardPage.svelte";
-    import { PageSkill } from "../../../store/Store";
+    import { SkillInfo } from "../../../store/Store";
     import { HTML, CSS } from "./PagesInfo"
 </script>
 
-{#each $PageSkill as item}
+<!-- {#each $SkillInfo as item}
+    <CardPage
+        Title={item.Title}
+        Img={item.Img}
+        Alt={item.Alt}
+        Info={item.Info}
+    />
+{/each} -->
+
+{#if $SkillInfo === 'HTML'}
+{#each HTML as item}
     <CardPage
         Title={item.Title}
         Img={item.Img}
@@ -12,3 +22,4 @@
         Info={item.Info}
     />
 {/each}
+{/if}

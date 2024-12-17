@@ -1,11 +1,12 @@
 <script lang='ts'>
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
-    import { PageSkill } from "../../../store/Store"
+    import { PageSkill, SkillInfo } from "../../../store/Store"
     import SkillsInfo from "../../../routes/Skills/Pages/SkillsInfo.svelte";
 
     function UpdateSkillPage(Page: any) {
-        $PageSkill = Page
+        $PageSkill = SkillsInfo
+        $SkillInfo = Page
     }
 
     let TiltCard: HTMLElement;
