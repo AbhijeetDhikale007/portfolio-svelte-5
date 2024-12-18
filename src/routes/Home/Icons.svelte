@@ -21,9 +21,10 @@
         background-color: #fff;
     }
 
-    // a:hover {
-    //     border: 1px solid rgb(255, 0, .5);
-    // }
+    a:hover {
+        // border: 1px solid rgb(255, 0, .5);
+        scale: 1.1;
+    }
 
     img {
         filter:invert(1);
