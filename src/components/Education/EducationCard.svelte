@@ -22,6 +22,7 @@
 </script>
 
 <div class={CardClass} bind:this={TiltCard}>
+    <!-- <img class='Icon1' src="Icons/Circle.svg" alt=""> -->
     <img class='Logo' src={imgUrl} alt={imgAlt} />
     <h2>{Degree}</h2>
     <h3 class="pb-2">{Name}</h3>
@@ -84,6 +85,10 @@
         // align-self: start;
         @apply self-center md:self-start lg:self-start;
     }
+
+    // .Icon1 {
+    //     @apply absolute w-3 top-50% left-105% text-red;
+    // }
 
     .Card2 {
         // align-self: end;
