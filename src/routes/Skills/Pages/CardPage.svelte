@@ -54,6 +54,11 @@
 
         .HeadingIcon {
             @apply absolute w-75 h-75 self-center justify-self-end opacity-48 overflow-hidden;
+            @apply flex justify-center items-center;
+
+            img {
+                @apply h-100% w-100%;
+            }
         }
 
         .Info {
