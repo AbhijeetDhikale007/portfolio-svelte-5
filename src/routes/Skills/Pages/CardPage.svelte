@@ -53,7 +53,7 @@
         }
 
         .HeadingIcon {
-            @apply absolute w-75 h-75 self-center justify-self-end opacity-72 overflow-hidden;
+            @apply absolute w-75 h-75 self-center justify-self-end opacity-48 overflow-hidden;
         }
 
         .Info {
