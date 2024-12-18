@@ -5,6 +5,7 @@
 
 {#each Skill5 as skills5}
 <Cards
+  Page={skills5.Page}
   Name={skills5.name}
   Class={skills5.class}
   SVG={skills5.SVG}
