@@ -31,7 +31,7 @@
 
         .HR {
             border-left: .1px solid rgb(255, 255, 255, 0.4);
-            @apply justify-self-center self-center w-0 h-100% absolute inset-0;
+            @apply justify-self-center self-center w-0 h-100% absolute inset-0 ml-50% mr-50%;
             @apply hidden md:block lg:block xl:block 2xl:block z--1 shrink-1 grow-1;
         }
     }
