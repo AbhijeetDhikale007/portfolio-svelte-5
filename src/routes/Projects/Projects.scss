@@ -2,7 +2,10 @@
     .CardProject {
         border: .6px solid rgb(255, 255, 255, .4);
         @apply flex flex-wrap flex-col gap-y-2 rounded-3 p-6;
-        @apply w-[70vw] md:w-[34vw] lg:w-[25vw];
+        @apply w-[70vw] min-w-[68vw] max-w-[72vw];
+        @apply md:w-[28vw] md:min-w-[24vw] md:max-w-[32vw];
+        @apply lg:w-[26vw] lg:min-w-[22vw] lg:max-w-[30vw];
+        @apply xl:w-[22vw] xl:min-w-[20vw];
     }
 
     .CardProject:hover {
@@ -15,7 +18,7 @@
     }
 
     .CP0 {
-        @apply w-[25vw];
+        @apply w-100%;
 
         img {
             @apply w-11;
