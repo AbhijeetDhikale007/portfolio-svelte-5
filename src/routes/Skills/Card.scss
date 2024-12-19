@@ -1,6 +1,8 @@
 .Card {
     // border: .3px solid rgb(255, 255, 255, .3);
     border-radius: 18px;
+    box-shadow: inset 3px 3px 10px rgb(255, 255, 255, .1),
+                inset -3px -3px 10px rgb(255, 255, 255, .1);
     @apply flex grow-1 shrink-1 items-center justify-between overflow-hidden;
     @apply h-19 min-h-14 max-h-22 min-w-[72vw] w-[76vw] max-w-[84vw];
     @apply md:max-h-22 md:h-19 md:min-h-16 md:max-w-[42vw] md:min-w-[33vw] md:w-[36vw];
