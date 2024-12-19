@@ -101,8 +101,9 @@
             @apply mt-4 mb-8 grow-1 shrink-1;
             @apply w-[80vw] h-[56vh];
             @apply md:w-[76vw] md:h-48;
-            @apply lg:w-250 lg:h-70;
-            @apply xl:w-280 xl:h-88;
+            @apply lg:w-250 lg:h-[48vh];
+            @apply xl:w-[80vw] xl:h-[48vh];
+            @apply 2xl:w-[80vw] xl:h-[48vh];
 
             .Resume-frame {
                 @apply w-100% h-100% border-none;
