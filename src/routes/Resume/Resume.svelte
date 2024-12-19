@@ -68,7 +68,7 @@
         <a class='Button-white' href="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" target="_blank" type='file/pdf' download>Download</a>
     </div>
     <div class='frame'>
-        <iframe class='Resume-frame' src="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" title="Resume PDF" loading='eager'></iframe>
+        <iframe class='Resume-frame' src="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf#view=max" title="Resume PDF" loading='eager'></iframe>
     </div>
 </div>
 
@@ -101,9 +101,9 @@
             @apply mt-4 mb-8 grow-1 shrink-1;
             @apply w-[80vw] h-[56vh];
             @apply md:w-[76vw] md:h-48;
-            @apply lg:w-250 lg:h-[48vh];
-            @apply xl:w-[80vw] xl:h-[48vh];
-            @apply 2xl:w-[80vw] xl:h-[48vh];
+            @apply lg:w-[76vw] lg:h-[48vh];
+            @apply xl:w-[76vw] xl:h-[48vh];
+            @apply 2xl:w-[76vw] xl:h-[48vh];
 
             .Resume-frame {
                 @apply w-100% h-100% border-none;
