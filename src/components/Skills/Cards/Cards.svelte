@@ -23,18 +23,16 @@
     export let Page, Name: string, Class: string, SVG: string, Alt: string
 </script>
 
-<button on:click={() => UpdateSkillPage(Page)}>
-    <div class='Card' bind:this={TiltCard}>
+<button class='Card' on:click={() => UpdateSkillPage(Page)} bind:this={TiltCard}>
         <p>{Name}</p>
         <div class={Class}>
             <img src={SVG} alt={Alt}>
         </div>
-    </div>
 </button>
 
 <style lang='scss'>
     button {
-        background-color: transparent;
+        background-color: rgb(50, 50, 50, .3);
         border: none;
     }
 </style>

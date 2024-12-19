@@ -1,11 +1,16 @@
 .Card {
-    border: .3px solid rgb(255, 255, 255, .3);
+    // border: .3px solid rgb(255, 255, 255, .3);
     border-radius: 18px;
     @apply flex grow-1 shrink-1 items-center justify-between overflow-hidden;
     @apply h-19 min-h-14 max-h-22 min-w-[72vw] w-[76vw] max-w-[84vw];
     @apply md:max-h-22 md:h-19 md:min-h-16 md:max-w-[42vw] md:min-w-[33vw] md:w-[36vw];
     @apply lg:min-w-68 lg:max-w-80 lg:w-76 lg:min-h-18 lg:max-h-19;
-    @apply xl:w-[24vw] xl:min-w-[22vw] xl:max-w-[26vw];
+    @apply xl:w-[24vw] xl:min-w-[22vw] xl:max-w-[24vw];
+    @apply 2xl:w-88 2xl:min-w-86 2xl:max-w-90 2xl:h-24 2xl:min-h-22;
+
+    // .Card:hover {
+    //     border: 1.2px solid #fff;
+    // }
 
     p {
         @apply px-6;
@@ -18,6 +23,7 @@
 
     img {
         @apply w-20 h-20 justify-self-end;
+        @apply 2xl:w-21 2xl:h-21;
     }
 
     .C {
@@ -111,8 +117,4 @@
     .InteliJ {
         background: linear-gradient(to right, transparent 0%, #242938 100%);
     }
-}
-
-.Card:hover {
-    border: 1.2px solid #fff;
 }
