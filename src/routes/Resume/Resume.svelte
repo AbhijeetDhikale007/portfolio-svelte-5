@@ -6,15 +6,15 @@
 <div class='Resume' in:fly={{y: 100, duration: 1000}}>
     <Heading HeadingTitle='Resume' />
     <div class='Wrapper'>
-        <div>
-            <img src="Icons/Resume.svg" alt="Resume">
-        </div>
         <div class='Buttons-Div'>
             <a class='Button' href="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" target="_blank" type='file/pdf'>View</a>
             <a class='Button' href="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" target="_blank" type='file/pdf' download>Download</a>
         </div>
+        <div>
+            <!-- <img src="Icons/Resume.svg" alt="Resume"> -->
+            <iframe id='Resume' src="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" title="Resume PDF" frameborder="1" loading='eager'></iframe>
+        </div>
     </div>
-    <!-- <iframe id='Resume' src="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" title="Resume PDF" frameborder="1" loading='eager'></iframe> -->
 </div>
 
 <style lang='scss'>
@@ -24,11 +24,11 @@
         @apply md:w-[70vw] md:h-[74vh];
         @apply lg:w-[99vw] lg:h-[82vh];
         @apply xl:w-[80vw] xl:h-[80vh];
-        // border: 2px solid #fff;
+        border: 2px solid #fff;
 
         .Wrapper {
             @apply items-center justify-center;
-            @apply flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row;
+            @apply flex flex-col md:flex-row lg:flex-col xl:flex-col 2xl:flex-col;
             @apply mt-16 h-100% w-100%;
             // border: 2px solid red;
 
@@ -42,9 +42,9 @@
         }
     }
 
-    img {
-        @apply flex rounded-4 w-60% h-60% border-none;
-    }
+    // img {
+    //     @apply flex rounded-4 w-60% h-60% border-none;
+    // }
 
     .Button {
         border: 1px solid rgb(255, 255, 255, .5);
