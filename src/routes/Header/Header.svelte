@@ -38,8 +38,7 @@
 
 <div class='z-4'>
     <div class="Header">
-        <div
-            class="HeaderDiv">
+        <div class="HeaderDiv">
             <!-- <img
                 class="King pointer-events-none w-16 lg:w-17 inline-block"
                 src="/King.png"
@@ -105,18 +104,17 @@
         backdrop-filter: blur(3px);
         border-bottom: 0.5px solid rgb(255, 255, 255, 0.5);
         @apply flex flex-items-center flex-justify-between;
-        @apply grow-1 h-14 w-[100vw] lg:w-[100vw];
+        @apply grow-1 h-14 w-[100vw];
 
         .Name {
             letter-spacing: 3px;
-            text-shadow: #000 0.1em 0.1em 0.2em;
             @apply inline-block vertical-middle text-white cursor-default;
             @apply font-size-4 lg:font-size-5 font-semibold;
         }
 
         .HeaderDiv {
             // border: 2px solid red;
-            @apply ml-[4vw] lg:ml-[10vw];
+            @apply ml-[4vw] lg:ml-[8vw];
             @apply flex pointer-events-none z-1 items-center select-none;
         }
 
