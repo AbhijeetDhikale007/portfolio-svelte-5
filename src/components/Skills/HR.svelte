@@ -11,7 +11,7 @@
             <pre>{HRname}</pre>
         </div>
         <div>
-            <hr class="w-300" />
+            <hr class="w-screen" />
         </div>
     </div>
 </div>
