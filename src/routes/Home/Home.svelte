@@ -1,8 +1,7 @@
 <script lang="ts">
     import { Typewriter } from '../../components/+components';
     import { fly } from 'svelte/transition'
-    import Icons from './Icons.svelte'
-    import Profile from './Profile.svelte';
+    import { Icons, Profile } from '../../components/+components'
 </script>
 
 <div class="Home flex items-center px-5" in:fly={{y: 100, duration: 1000}}>
