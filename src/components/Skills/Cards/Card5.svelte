@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import { Skill5 } from '../Detail'
+  import { Skill5 } from '../../../data/Skills/Detail'
   import Cards from './Cards.svelte';
 </script>
 
