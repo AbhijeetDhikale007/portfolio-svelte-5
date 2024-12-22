@@ -47,6 +47,6 @@
 
 <style lang="scss">
     .Skills {
-      @apply xl:w-[80vw] 2xl:w-[80vw];
+      @apply xl:w-[80vw] 2xl:w-[78vw];
     }
 </style>
