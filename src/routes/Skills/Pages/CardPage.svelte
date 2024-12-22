@@ -90,12 +90,12 @@
 
             button {
                 border: 1px solid #fff;
-                @apply border-none border-rounded-3 text-6 p-3;
+                @apply border-rounded-3 text-6 p-3;
                 @apply flex items-center bg-white text-black;
             }
 
             button:hover {
-                border: 1px solid #fff;
+                border: 1px solid #000;
                 filter: invert(1);
             }
         }
