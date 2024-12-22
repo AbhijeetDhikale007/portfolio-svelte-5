@@ -62,7 +62,7 @@
         }
 
         .Info {
-            @apply flex items-center p-8 h-50;
+            @apply flex items-center p-8 min-h-50 max-h-200 grow-1;
             // border: 1px solid blue;
 
             pre {
