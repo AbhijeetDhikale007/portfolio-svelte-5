@@ -9,8 +9,8 @@
     onMount(() => {
     // Initialize VanillaTilt on all matching elements
     VanillaTilt.init(TiltCard, {
-      max: 8,
-      speed: 100,
+      max: 6,
+      speed: 80,
       glare: true,
       "max-glare": 0.1,
       gyroscope: true,
