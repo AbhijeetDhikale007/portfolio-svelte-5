@@ -44,3 +44,9 @@
         </div>
     </CardDiv>
 </div>
+
+<style lang="scss">
+    .Skills {
+      @apply xl:w-[80vw] 2xl:w-[80vw];
+    }
+</style>
