@@ -55,8 +55,10 @@
             @apply absolute self-center justify-self-center;
 
             h3 {
-                @apply text-center text-10;
-                @apply xl:text-20;
+                @apply text-center text-8;
+                @apply lg:text-12;
+                @apply xl:text-16;
+                @apply 2xl:text-22;
             }
         }
 
@@ -77,9 +79,9 @@
 
             pre {
                 @apply text-justify text-wrap;
-                @apply lg:text-4.4;
-                @apply xl:text-5.5;
-                @apply 2xl:text-10;
+                @apply lg:text-4;
+                @apply xl:text-4.3;
+                @apply 2xl:text-5.5;
             }
         }
 
