@@ -74,11 +74,13 @@
         }
 
         .Info {
-            @apply flex items-center p-8 min-h-50 grow-1;
+            @apply flex items-center p-x-4 p-y-8 min-h-50 grow-1;
+            @apply md:p-8 lg:p-8;
             // border: 1px solid blue;
 
             pre {
-                @apply text-justify text-wrap;
+                @apply text-justify text-wrap text-4.2;
+                @apply md:text-4;
                 @apply lg:text-4;
                 @apply xl:text-4.3;
                 @apply 2xl:text-5.5;
