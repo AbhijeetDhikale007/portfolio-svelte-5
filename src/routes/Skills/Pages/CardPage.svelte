@@ -30,13 +30,20 @@
 
 <style lang='scss'>
     .CardPage {
-        @apply flex flex-col w-[70vw] mt-15;
+        @apply flex flex-col;
+        @apply mt-18 w-[88vw];
+        @apply lg:mt-15 lg:w-[70vw];
+        @apply xl:mt-15 xl:w-[80vw];
+        @apply 2xl:mt-15 2xl:w-[80vw];
         // border: 1px solid red;
 
         .Heading {
             // border: 1px solid #fff;
             @apply grid justify-around overflow-hidden;
-            @apply h-75 w-100%;
+            @apply h-32 w-100%;
+            @apply lg:h-75;
+            @apply xl:h-75;
+            @apply 2xl:h-75;
         }
 
         hr {
@@ -49,12 +56,15 @@
 
             h3 {
                 @apply text-center text-10;
+                @apply xl:text-20;
             }
         }
 
         .HeadingIcon {
-            @apply absolute w-75 h-75 self-center justify-self-end opacity-48 overflow-hidden;
+            @apply absolute self-center justify-self-end opacity-48 overflow-hidden;
             @apply flex justify-center items-center;
+            @apply h-32 w-32;
+            @apply lg:w-75 lg:h-75;
 
             img {
                 @apply h-100% w-100%;
@@ -62,11 +72,14 @@
         }
 
         .Info {
-            @apply flex items-center p-8 min-h-50 max-h-200 grow-1;
+            @apply flex items-center p-8 min-h-50 grow-1;
             // border: 1px solid blue;
 
             pre {
                 @apply text-justify text-wrap;
+                @apply lg:text-4.4;
+                @apply xl:text-5.5;
+                @apply 2xl:text-10;
             }
         }
 
