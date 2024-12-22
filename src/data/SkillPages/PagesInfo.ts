@@ -5,8 +5,7 @@ export const HTML: Array = [
 ]
 
 export const CSS: Array = [
-    { Title: 'CSS', Img: 'Icons/CSS.svg', Alt: 'CSS', Info: 'Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, a programming language. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.'}
-]
+    { Title: 'CSS', Img: 'Icons/CSS.svg', Alt: 'CSS', Info: 'CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.'}]
 
 // Need To Fill Info Below
 
@@ -15,7 +14,7 @@ export const C: Array = [
 ]
 
 export const CPlus: Array = [
-    { Title: 'C++', Img: 'Icons/C++.svg', Alt: 'C++', Info: 'Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, a programming language. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.'}
+    { Title: 'C++', Img: 'Icons/C++.svg', Alt: 'C++', Info: "C++ is a cross-platform language that can be used to create high-performance applications. C++ was developed by Bjarne Stroustrup, as an extension to the C language. C++ gives programmers a high level of control over system resources and memory. The language was updated 5 major times in 2011, 2014, 2017, 2020, and 2023 to C++11, C++14, C++17, C++20, and C++23. C++ is one of the world's most popular programming languages.\nC++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems. C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs. C++ is portable and can be used to develop applications that can be adapted to multiple platforms. C++ is fun and easy to learn! As C++ is close to C, C# and Java, it makes it easy for programmers to switch to C++ or vice versa."}
 ]
 
 export const TypeScript: Array = [

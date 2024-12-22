@@ -20,7 +20,7 @@
     </div>
     <hr>
     <div class='Info'>
-        <p>{Info}</p>
+        <pre>{Info}</pre>
     </div>
     <hr>
     <div class='ButtonDiv'>
@@ -65,8 +65,8 @@
             @apply flex items-center p-8 h-50;
             // border: 1px solid blue;
 
-            p {
-                @apply text-justify;
+            pre {
+                @apply text-justify text-wrap;
             }
         }
 
