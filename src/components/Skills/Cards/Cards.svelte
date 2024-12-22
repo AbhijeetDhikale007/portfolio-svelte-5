@@ -14,6 +14,8 @@
     onMount(() => {
         VanillaTilt.init(TiltCard, {
             max: 25, // Maximum tilt angle in degrees
+            perspective: 280,
+            scale: 1.08,
             speed: 400, // Speed of the effect
             glare: true, // Enables glare effect
             "max-glare": 0.5, // Maximum opacity for glare

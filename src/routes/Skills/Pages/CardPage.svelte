@@ -6,7 +6,7 @@
         $PageSkill = Skills
     }
 
-    export let Title: string, Img: string, Alt: string, Info: string
+    export let Title: string, Img: string, Alt: string, Info: string, Url: string
 </script>
 
 <div class='CardPage'>
@@ -24,6 +24,7 @@
     </div>
     <hr>
     <div class='ButtonDiv'>
+        <a href={Url}>{Title}</a>
         <button on:click={Back}><img src='Icons/Back.svg' alt='Back'></button>
     </div>
 </div>
@@ -88,7 +89,17 @@
         }
 
         .ButtonDiv {
-            @apply flex items-center justify-center p-6;
+            @apply flex items-center justify-between p-6;
+
+            a {
+                border: 1px solid #fff;
+                @apply border-rounded-3 bg-white text-black text-4.8 no-underline;
+                @apply flex justify-center items-center p-3 min-w-6;
+            }
+
+            a:hover {
+                @apply bg-black text-white;
+            }
 
             button {
                 border: 1px solid #fff;

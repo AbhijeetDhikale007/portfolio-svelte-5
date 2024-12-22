@@ -10,5 +10,6 @@
         Img={item.Img}
         Alt={item.Alt}
         Info={item.Info}
+        Url={item.Url}
     />
 {/each}

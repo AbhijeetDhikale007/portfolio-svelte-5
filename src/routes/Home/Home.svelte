@@ -27,9 +27,10 @@
 <style lang="scss">
     .Home {
         // border: 2px solid #fff;
-        @apply flex md:flex flex-col items-center justify-center;
+        @apply flex flex-col items-center justify-center;
+        @apply gap-25 md:gap-0 md:flex-row md:justify-between;
         @apply lg:flex-row lg:justify-between xl:flex-row xl:justify-between 2xl:flex-row 2xl:justify-between;
-        @apply w-[74vw] md:w-[58vw] lg:w-[60vw] pointer-events-none;
+        @apply w-[74vw] lg:w-[68vw] pointer-events-none;
 
         h1 {
             @apply text-10 md:text-12 lg:text-16 font-bold;
