@@ -1,8 +1,9 @@
 <script lang="ts">
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
-    export let CardClass, imgUrl, imgAlt, Degree,
-        Name, Location, Date, Duration, CertificateUrl;
+    import { Card } from './Education'
+    // export let CardClass, imgUrl, imgAlt, Degree,
+    //     Name, Location, Date, Duration, CertificateUrl;
 
     let TiltCard: HTMLElement;
 
@@ -21,31 +22,33 @@
     });
 </script>
 
-<div class={CardClass} bind:this={TiltCard}>
+{#each Card as card}
+<div class={card.CardClass} bind:this={TiltCard}>
     <!-- <img class='Icon1' src="Icons/Circle.svg" alt=""> -->
-    <img class='Logo' src={imgUrl} alt={imgAlt} />
-    <h2>{Degree}</h2>
-    <h3 class="pb-2">{Name}</h3>
+    <img class='Logo' src={card.imgUrl} alt={card.imgAlt} />
+    <h2>{card.Degree}</h2>
+    <h3 class="pb-2">{card.Name}</h3>
     <hr />
     <div class="CardDiv">
-        <div class="IconDiv"><img src="Icons/Location.svg" alt=""></div>
-        <h4>{Location}</h4>
+        <div class="IconDiv"><img src="Icons/Location.svg" alt="Location"></div>
+        <h4>{card.Location}</h4>
     </div>
     <hr />
     <div class="CardDiv">
-        <div class="IconDiv"><img src="Icons/Date.svg" alt=""></div>
-        <h4>{Date}</h4>
+        <div class="IconDiv"><img src="Icons/Date.svg" alt="Date"></div>
+        <h4>{card.Date}</h4>
     </div>
     <hr />
     <div class="CardDiv">
         <div class="IconDiv"><img src="Icons/Time.svg" alt="Time"></div>
-        <h4>{Duration}</h4>
+        <h4>{card.Duration}</h4>
     </div>
     <hr />
     <div class="LastDiv">
-        <a class="ButtonCard Tooltip" href={CertificateUrl} data-title='Certificate' target='_blank'><img src='Icons/Certificate.svg' alt='Certificate'></a>
+        <a class="ButtonCard Tooltip" href={card.CertificateUrl} data-title='Certificate' target='_blank'><img src='Icons/Certificate.svg' alt='Certificate'></a>
     </div>
 </div>
+{/each}
 
 <style lang="scss">
     .CardEdu {
