@@ -45,10 +45,8 @@
                 alt="King - A Logo"
             /> -->
             <h1 class='A'>Λ</h1>
-            <h3
-                class="Name">
-                Λʙʜιנєєτ Ðʜικαℓє
-            </h3>
+            <pre
+                class="Name">Λ ʙ ʜ ι נ є є τ   Ð ʜ ι κ α ℓ є</pre>
         </div>
         <nav>
             <div class="Menu-Container">
@@ -108,7 +106,7 @@
 
         .Name {
             font-family: 'Roboto-Condensed';
-            letter-spacing: 3px;
+            letter-spacing: -1px;
             @apply inline-block vertical-middle text-white cursor-default;
             @apply font-size-4 lg:font-size-5;
         }
