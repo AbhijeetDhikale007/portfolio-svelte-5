@@ -107,9 +107,10 @@
         @apply grow-1 h-14 w-[100vw];
 
         .Name {
+            font-family: 'Roboto-Condensed';
             letter-spacing: 3px;
             @apply inline-block vertical-middle text-white cursor-default;
-            @apply font-size-4 lg:font-size-5 font-semibold;
+            @apply font-size-4 lg:font-size-5;
         }
 
         .HeaderDiv {

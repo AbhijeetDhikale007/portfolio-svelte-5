@@ -1,7 +1,7 @@
-// @font-face {
-//   font-family: 'Roboto Condensed';
-//   src: url(assets/Roboto-Condensed.ttf);
-// }
+@font-face {
+  font-family: 'Roboto-Condensed';
+  src: url(assets/Roboto-Condensed.ttf);
+}
 
 @import url(./routes/Tooltip.scss);
 
@@ -9,7 +9,7 @@
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", serif;
 }
 
 :root {
