@@ -1,11 +1,43 @@
-<div class='Photo-Main'>
+<script lang='ts'>
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+    import '@splidejs/svelte-splide/css';
+</script>
+
+<Splide aria-label="My Favorite Images"
+  options={ {
+    rewind: true,
+    autoplay: true,
+    SplideSlide: 100,
+    delay: -1600,
+    width: 1600,
+    gap: '1px',
+    // rewindByDrag: true,
+    arrows: false,
+    // useScroll: true,
+    // wheel: true,
+    // waitForTransition: true,
+    // wheelSleep: 100,
+    // easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
+  }}>
+  <SplideSlide>
+    <img src='Icons/Svelte.svg' alt="Svelte"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/React.svg' alt="React"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/Angular.svg' alt="Angular"/>
+  </SplideSlide>
+</Splide>
+
+<!-- <div class='Photo-Main'>
   <div class='BG-Wrapper'>
     <div class='BG'></div>
       <img src="Shree Krishn.jpg" alt="Portait">
   </div>
-</div>
+</div> -->
 
-<style lang='scss'>
+<!-- <style lang='scss'>
   .Photo-Main {
     // border: 2px solid #fff;
     // border-left: 2px solid rgb(250, 250, 250, .6);
@@ -33,4 +65,4 @@
       @apply relative rounded-25 w-100% h-100% select-none;
     }
   }
-</style>
+</style> -->
