@@ -108,7 +108,7 @@
             font-family: 'Roboto-Condensed';
             letter-spacing: -1px;
             @apply inline-block vertical-middle text-white cursor-default;
-            @apply font-size-4 lg:font-size-5;
+            @apply font-size-4 lg:font-size-5 xl:text-5.4 2xl:text-5.6;
         }
 
         .HeaderDiv {

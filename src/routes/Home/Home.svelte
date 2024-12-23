@@ -28,7 +28,7 @@
     .Home {
         // border: 2px solid #fff;
         @apply flex flex-col items-center justify-center;
-        @apply gap-25 md:gap-0 md:flex-row md:justify-between;
+        @apply gap-12 md:gap-0 md:flex-row md:justify-between;
         @apply lg:flex-row lg:justify-between xl:flex-row xl:justify-between 2xl:flex-row 2xl:justify-between;
         @apply w-[74vw] lg:w-[68vw] pointer-events-none;
 
