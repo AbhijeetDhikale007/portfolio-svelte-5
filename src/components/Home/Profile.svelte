@@ -3,16 +3,17 @@
     import '@splidejs/svelte-splide/css';
 </script>
 
+<div class='Carousel'>
 <Splide aria-label="My Favorite Images"
   options={ {
     rewind: true,
     autoplay: true,
     SplideSlide: 100,
-    delay: -1600,
+    delay: -2500,
     width: 1600,
-    gap: '1px',
-    // rewindByDrag: true,
+    gap: '10px',
     arrows: false,
+    // rewindByDrag: true,
     // useScroll: true,
     // wheel: true,
     // waitForTransition: true,
@@ -28,14 +29,33 @@
   <SplideSlide>
     <img src='Icons/Angular.svg' alt="Angular"/>
   </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/TypeScript.svg' alt="TypeScript"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/Javascript.svg' alt="JavaScript"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/Unocss.svg' alt="UnoCSS"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/Tailwind.svg' alt="Tailwind CSS"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/Mysql.svg' alt="MySQL"/>
+  </SplideSlide>
 </Splide>
+</div>
 
-<!-- <div class='Photo-Main'>
-  <div class='BG-Wrapper'>
-    <div class='BG'></div>
-      <img src="Shree Krishn.jpg" alt="Portait">
-  </div>
-</div> -->
+<style lann='scss'>
+    .Carousel {
+      @apply w-42 h-42 p-5;
+
+      img {
+        @apply w-80% h-80%;
+      }
+    }
+</style>
 
 <!-- <style lang='scss'>
   .Photo-Main {
