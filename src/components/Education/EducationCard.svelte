@@ -1,29 +1,27 @@
 <script lang="ts">
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
-    import { Card } from './Education'
+    import { Card } from '../../data/Education/Education'
     // export let CardClass, imgUrl, imgAlt, Degree,
     //     Name, Location, Date, Duration, CertificateUrl;
 
-    let TiltCard: HTMLElement;
+    let TiltCard: HTMLElement[] = [];
 
     onMount(() => {
-        VanillaTilt.init(TiltCard, {
-        max: 18,
-        speed: 300,
-        glare: true,
-        "max-glare": 0.1,
-        gyroscope: true,
-        gyroscopeMinAngleX: -25,
-        gyroscopeMaxAngleX: 25,
-        gyroscopeMinAngleY: -25,
-        gyroscopeMaxAngleY: 25,
+    // Initialize VanillaTilt for each card in the array
+    TiltCard.forEach((card: HTMLElement) => {
+      VanillaTilt.init(card, {
+        max: 25, // Maximum tilt angle in degrees
+        speed: 400, // Speed of the effect
+        glare: true, // Enables glare effect
+        "max-glare": 0.5, // Maximum opacity for glare
       });
     });
+  });
 </script>
 
-{#each Card as card}
-<div class={card.CardClass} bind:this={TiltCard}>
+{#each Card as card, index}
+<div class={card.CardClass} bind:this={TiltCard[index]}>
     <!-- <img class='Icon1' src="Icons/Circle.svg" alt=""> -->
     <img class='Logo' src={card.imgUrl} alt={card.imgAlt} />
     <h2>{card.Degree}</h2>
