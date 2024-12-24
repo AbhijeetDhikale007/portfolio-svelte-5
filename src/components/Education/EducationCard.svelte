@@ -6,7 +6,6 @@
     let TiltCard: HTMLElement[] = [];
 
     onMount(() => {
-    // Initialize VanillaTilt for each card in the array
     TiltCard.forEach((card: HTMLElement) => {
       VanillaTilt.init(card, {
         max: 25, // Maximum tilt angle in degrees
