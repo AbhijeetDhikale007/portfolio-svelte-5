@@ -11,6 +11,7 @@
     SplideSlide: 100,
     delay: -2500,
     width: 1500,
+    padding: '10px',
     gap: '10px',
     arrows: false,
     // rewindByDrag: true,
@@ -43,6 +44,9 @@
   </SplideSlide>
   <SplideSlide>
     <img src='Icons/Mysql.svg' alt="MySQL"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='Icons/CLang.svg' alt="C"/>
   </SplideSlide>
 </Splide>
 </div>
