@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Typewriter } from '../../components/+components';
     import { fly } from 'svelte/transition'
-    import { Icons, Profile } from '../../components/+components'
+    import { Icons, Carousel } from '../../components/+components'
 </script>
 
 <div class="Home flex items-center px-5" in:fly={{y: 100, duration: 1000}}>
@@ -14,7 +14,7 @@
         </div>
     </div>
     <!-- <div class='SVG'> -->
-        <Profile />
+        <Carousel />
         <!-- <div>{@html HTMLIcon}</div>
         <div>{@html CSS}</div> -->
     <!-- </div> -->
