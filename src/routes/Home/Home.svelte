@@ -13,11 +13,7 @@
             <Icons />
         </div>
     </div>
-    <!-- <div class='SVG'> -->
-        <Carousel />
-        <!-- <div>{@html HTMLIcon}</div>
-        <div>{@html CSS}</div> -->
-    <!-- </div> -->
+    <Carousel />
 </div>
 
 <div class='absolute bottom-2 left-2'>
