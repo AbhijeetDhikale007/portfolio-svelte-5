@@ -74,6 +74,16 @@ export let icons = {
         svg: ``
     },
 
+    IDX: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Instagram: {
+        viewBox: '',
+        svg: ``
+    },
+
     IntelliJ: {
         viewBox: '',
         svg: ``
@@ -94,6 +104,11 @@ export let icons = {
         svg: ``
     },
 
+    LinkedIn: {
+        viewBox: '',
+        svg: ``
+    },
+
     Location: {
         viewBox: '',
         svg: ``
@@ -105,6 +120,91 @@ export let icons = {
     },
 
     MySQL: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Postman: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Project: {
+        viewBox: '',
+        svg: ``
+    },
+
+    React: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Resume: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Sass: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Svelte: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Tailwind: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Telegram: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Threejs: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Time: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Twitter: {
+        viewBox: '',
+        svg: ``
+    },
+
+    TypeScript: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Unocss: {
+        viewBox: '',
+        svg: ``
+    },
+
+    VSCode: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Webflow: {
+        viewBox: '',
+        svg: ``
+    },
+
+    Windows: {
+        viewBox: '',
+        svg: ``
+    },
+
+    WordPress: {
         viewBox: '',
         svg: ``
     },
