@@ -26,7 +26,7 @@
 {#each Project as project, index}
 <div class="CardProject" bind:this={TiltCard[index]}>
     <div class="CP0">
-        <img src={project.Logo} alt="Project Logo">
+        <Ico class='Ico' name={project.Logo} />
     </div>
     <div class='CP1'>
         <h2>{project.Title}</h2>
@@ -61,7 +61,6 @@
     <div class="CP6">
         <Ico class='Skills' name={project.SVG1} />
         <Ico class='Skills' name={project.SVG2} />
-        <!-- <img class='Skills' src={project.SVG1} /> -->
         {#if project.SVG3}<Ico class='Skills' name={project.SVG3} />{/if}
         {#if project.SVG4}<Ico class='Skills' name={project.SVG4} />{/if}
         {#if project.SVG5}<Ico class='Skills' name={project.SVG5} />{/if}
@@ -98,8 +97,13 @@
         @apply w-5.6 h-5.6 p-1.6 rounded-3;
     }
 
-    :global(.Skills) {
-        border: 1px solid #fff;
-        @apply w-5.6 h-5.6 p-1.6 rounded-3;
+    .CP6 {
+        @apply flex gap-x-2 items-center justify-start;
+        @apply h-[10vh] w-100%;
+
+        :global(.Skills) {
+            border: 1px solid #fff;
+            @apply w-5 h-5 p-1.6 rounded-3;
+        }
     }
 </style>

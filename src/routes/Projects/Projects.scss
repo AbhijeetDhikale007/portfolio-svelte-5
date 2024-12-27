@@ -20,7 +20,7 @@
     .CP0 {
         @apply w-100%;
 
-        img {
+        :global(.Ico) {
             @apply w-11;
         }
     }
@@ -72,12 +72,12 @@
     }
 
     .CP6 {
-        @apply flex flex-wrap gap-x-2 items-center;
+        @apply flex gap-x-2 items-center justify-start;
         @apply h-[10vh] w-100%;
 
-        div {
-            border: .5px solid rgb(255, 255, 255, .5);
-            @apply p-2 rounded-2 w-4 h-4;
-        }
+        // div {
+        //     border: .5px solid rgb(255, 255, 255, .5);
+        //     @apply p-2 rounded-2 w-4 h-4;
+        // }
     }
 }
