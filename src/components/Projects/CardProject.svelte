@@ -26,7 +26,7 @@
 {#each Project as project, index}
 <div class="CardProject" bind:this={TiltCard[index]}>
     <div class="CP0">
-        <Ico class='Ico' name={project.Logo} />
+        <Ico class='IcoTitle' name={project.Logo} />
     </div>
     <div class='CP1'>
         <h2>{project.Title}</h2>
@@ -95,6 +95,12 @@
     .Skills {
         border: 1px solid #fff;
         @apply w-5.6 h-5.6 p-1.6 rounded-3;
+    }
+
+    .CP0 {
+        :global(.IcoTitle) {
+            @apply w-11;
+        }
     }
 
     .CP6 {
