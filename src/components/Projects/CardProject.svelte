@@ -59,16 +59,17 @@
     </div>
     <hr>
     <div class="CP6">
-        <img class='Skills' src={project.SVG1} />
-        <img class='Skills' src={project.SVG2} />
-        {#if project.SVG3}<img class='Skills' src={project.SVG3} />{/if}
-        {#if project.SVG4}<img class='Skills' src={project.SVG4} />{/if}
-        {#if project.SVG5}<img class='Skills' src={project.SVG5} />{/if}
-        {#if project.SVG6}<img class='Skills' src={project.SVG6} />{/if}
-        {#if project.SVG7}<img class='Skills' src={project.SVG7} />{/if}
-        {#if project.SVG8}<img class='Skills' src={project.SVG8} />{/if}
-        {#if project.SVG9}<img class='Skills' src={project.SVG9} />{/if}
-        {#if project.SVG10}<img class='Skills' src={project.SVG10} />{/if}
+        <Ico class='Skills' name={project.SVG1} />
+        <Ico class='Skills' name={project.SVG2} />
+        <!-- <img class='Skills' src={project.SVG1} /> -->
+        {#if project.SVG3}<Ico class='Skills' name={project.SVG3} />{/if}
+        {#if project.SVG4}<Ico class='Skills' name={project.SVG4} />{/if}
+        {#if project.SVG5}<Ico class='Skills' name={project.SVG5} />{/if}
+        {#if project.SVG6}<Ico class='Skills' name={project.SVG6} />{/if}
+        {#if project.SVG7}<Ico class='Skills' name={project.SVG7} />{/if}
+        {#if project.SVG8}<Ico class='Skills' name={project.SVG8} />{/if}
+        {#if project.SVG9}<Ico class='Skills' name={project.SVG9} />{/if}
+        {#if project.SVG10}<Ico class='Skills' name={project.SVG10} />{/if}
     </div>
 </div>
 {/each}
@@ -93,6 +94,11 @@
     }
 
     .Skills {
+        border: 1px solid #fff;
+        @apply w-5.6 h-5.6 p-1.6 rounded-3;
+    }
+
+    :global(.Skills) {
         border: 1px solid #fff;
         @apply w-5.6 h-5.6 p-1.6 rounded-3;
     }
