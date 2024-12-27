@@ -38,8 +38,4 @@
     // img {
     //     filter:invert(1);
     // }
-
-    :global(.Ico) {
-        filter:invert(1);
-    }
 </style>

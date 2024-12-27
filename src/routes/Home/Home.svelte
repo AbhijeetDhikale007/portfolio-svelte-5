@@ -43,6 +43,10 @@
 
         .Buttons-Container {
             @apply flex gap-2 py-8 items-center select-none;
+
+            :global(.Ico) {
+                filter:invert(1);
+            }
         }
     }
 </style>
