@@ -2,7 +2,8 @@
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
     import { PageSkill, SkillInfo } from "../../../store/Store"
-    import SkillsInfo from "../../../routes/Skills/Pages/SkillsInfo.svelte";
+    import SkillsInfo from "../../../routes/Skills/Pages/SkillsInfo.svelte"
+    import { Ico } from '../../+components'
 
     function UpdateSkillPage(Page: any) {
         $PageSkill = SkillsInfo
@@ -27,13 +28,13 @@
         });
     })
 
-    export let Page, Name: string, Class: string, SVG: string, Alt: string
+    export let Page, Name: string, Class: string, SVG: string
 </script>
 
 <button class='Card' on:click={() => UpdateSkillPage(Page)} bind:this={TiltCard}>
         <p>{Name}</p>
         <div class={Class}>
-            <img src={SVG} alt={Alt}>
+            <Ico name={SVG} />
         </div>
 </button>
 
