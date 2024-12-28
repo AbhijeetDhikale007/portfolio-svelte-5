@@ -9,6 +9,5 @@
     Name={skills1.name}
     Class={skills1.class}
     SVG={skills1.SVG}
-    Alt={skills1.Alt}
   />
 {/each}

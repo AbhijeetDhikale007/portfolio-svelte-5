@@ -9,6 +9,5 @@ Page={skills6.Page}
 Name={skills6.name}
   Class={skills6.class}
   SVG={skills6.SVG}
-  Alt={skills6.Alt}
 />
 {/each}
