@@ -1,12 +1,13 @@
 <script lang='ts'>
     import { PageSkill } from "../../../store/Store";
     import Skills from "../Skills.svelte"
+    import { Ico } from '../../../components/+components'
 
     function Back(){
         $PageSkill = Skills
     }
 
-    export let Title: string, Img: string, Alt: string, Info: string, Url: string
+    export let Title: string, Img: string, Info: string, Url: string
 </script>
 
 <div class='CardPage'>
@@ -15,7 +16,7 @@
             <h3>{Title}</h3>
         </div>
         <div class='HeadingIcon'>
-            <img src={Img} alt={Alt}>
+            <Ico name={Img} />
         </div>
     </div>
     <hr>
@@ -25,7 +26,7 @@
     <hr>
     <div class='ButtonDiv'>
         <a href={Url}>{Title}</a>
-        <button on:click={Back}><img src='Icons/Back.svg' alt='Back'></button>
+        <button on:click={Back}><Ico name='Back' /></button>
     </div>
 </div>
 
@@ -103,7 +104,7 @@
 
             button {
                 border: 1px solid #fff;
-                @apply border-rounded-3 text-6 p-3;
+                @apply border-rounded-3 text-6 p-3 w-12.5 h-12.5;
                 @apply flex items-center bg-white text-black;
             }
 
