@@ -84,22 +84,13 @@
         }
     }
 
-    .SVG {
-        @apply w-4.8 h-4.8;
-    }
-
     .Details {
         @apply font-light;
     }
 
-    .Skills {
-        border: 1px solid #fff;
-        @apply w-5.6 h-5.6 p-1.6 rounded-3;
-    }
-
     .CP0 {
         :global(.IcoTitle) {
-            @apply w-11;
+            @apply w-15 h-15;
         }
     }
 
