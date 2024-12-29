@@ -1,6 +1,7 @@
 <script lang='ts'>
-    import { Splide, SplideSlide } from '@splidejs/svelte-splide';
-    import '@splidejs/svelte-splide/css';
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide'
+    import { Ico } from '../+components'
+    import '@splidejs/svelte-splide/css'
 </script>
 
 <div class='Carousel'>
@@ -22,31 +23,32 @@
     // easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
   }}>
   <SplideSlide>
-    <img src='Icons/Svelte.svg' alt="Svelte"/>
+    <!-- <img src='Icons/Svelte.svg' alt="Svelte"/> -->
+    <Ico name='Svelte' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/React.svg' alt="React"/>
+    <Ico name='React' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/Angular.svg' alt="Angular"/>
+    <Ico name='Angular' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/TypeScript.svg' alt="TypeScript"/>
+    <Ico name='TypeScript' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/Javascript.svg' alt="JavaScript"/>
+    <Ico name='JavaScript' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/Unocss.svg' alt="UnoCSS"/>
+    <Ico name='Unocss' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/Tailwind.svg' alt="Tailwind CSS"/>
+    <Ico name='Tailwind' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/Mysql.svg' alt="MySQL"/>
+    <Ico name='MySQL' />
   </SplideSlide>
   <SplideSlide>
-    <img src='Icons/CLang.svg' alt="C"/>
+    <Ico name='CLang' />
   </SplideSlide>
 </Splide>
 </div>
