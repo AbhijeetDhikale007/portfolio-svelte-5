@@ -150,7 +150,7 @@ html.lenis, html.lenis body {
   // box-shadow: 3px 3px #000;
 }
 
-.Button:focus {
+.Button.active {
   color: rgb(0, 250, 250);
   border-bottom: .5px solid rgb(0, 250, 250);
 }
