@@ -16,10 +16,6 @@
     <Carousel />
 </div>
 
-<div class='absolute bottom-2 left-2'>
-    <h4>Under Development</h4>
-</div>
-
 <style lang="scss">
     .Home {
         // border: 2px solid #fff;
