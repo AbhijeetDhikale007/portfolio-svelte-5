@@ -11,10 +11,11 @@ Vercel - [abhijeetdhikale007.vercel.app](https://abhijeetdhikale007.vercel.app)
 
 ## Features
 
--   **About Me**: A brief introduction about myself.
--   **Education**: My education.
+-   **Home**: A home page.
 -   **Skills**: Listed my skills and expertise.
--   **Contact**: Provided a contact form for users to get in touch with me.
+-   **Education**: My education.
+-   **Projects**: My projects.
+-   **Resume**: Provided my resume.
 
 ## Technologies Used
 
