@@ -40,8 +40,6 @@
 
 <style lang='scss'>
     button {
-        // background-color: rgb(50, 50, 50, .3);
-        // background-color: #000;
         background-color: rgb(100, 100, 100, .05);
         border: none;
     }
