@@ -84,11 +84,11 @@
                 {/if}
             </div>
             <div class='Menu-Buttons-2'>
-                <button class='Button' on:click={() => (Routing(Home))}>Home</button>
-                <button class='Button' on:click={() => (UpdateSkill())}>Skills</button>
-                <button class='Button' on:click={() => (Routing(Projects))}>Projects</button>
-                <button class='Button' on:click={() => (Routing(Education))}>Education</button>
-                <button class='Button' on:click={() => (Routing(Resume))}>Resume</button>
+                <button class='Button' class:active={$Main === Home} on:click={() => (Routing(Home))}>Home</button>
+                <button class='Button' class:active={$Main === SkillsPage} on:click={() => (UpdateSkill())}>Skills</button>
+                <button class='Button' class:active={$Main === Projects} on:click={() => (Routing(Projects))}>Projects</button>
+                <button class='Button' class:active={$Main === Education} on:click={() => (Routing(Education))}>Education</button>
+                <button class='Button' class:active={$Main === Resume} on:click={() => (Routing(Resume))}>Resume</button>
             </div>            
         </nav>
     </div>
