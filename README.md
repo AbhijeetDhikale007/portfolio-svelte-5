@@ -1,4 +1,4 @@
-# Personal Portfolio In React JS
+# Personal Portfolio In Svelte 5
 
 ![Portfolio Screenshot](/public/Screenshot.png)
 
