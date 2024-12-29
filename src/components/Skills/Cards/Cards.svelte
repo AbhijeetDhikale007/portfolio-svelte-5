@@ -34,9 +34,9 @@
 <button class='Card' on:click={() => UpdateSkillPage(Page)} bind:this={TiltCard}>
         <p>{Name}</p>
         <div class={Class}>
-            <div class='self-justify-end h-[100%]'>
+            <!-- <div class='self-justify-end max-h-full'> -->
                 <Ico name={SVG} />
-            </div>
+            <!-- </div> -->
         </div>
 </button>
 
