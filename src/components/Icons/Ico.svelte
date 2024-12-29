@@ -3,8 +3,8 @@
 
     export let name: keyof typeof icons
     let xmlns: string = 'http://www.w3.org/2000/svg'
-    let width: string = 'fit-content'
-    let height: string = 'fit-content'
+    let width: string = '100%'
+    let height: string = '100%'
     let displayIcon = icons[name];
 </script>
 
