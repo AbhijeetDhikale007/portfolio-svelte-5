@@ -3,6 +3,7 @@ Disallow: /admin/
 Disallow: /login/
 Disallow: /register/
 Allow: /
+Allow: /public/
 
 # Sitemap
 Sitemap: https://abhijeetdhikale007.vercel.app/sitemap.xml
