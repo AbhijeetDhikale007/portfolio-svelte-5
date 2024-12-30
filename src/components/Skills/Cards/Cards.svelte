@@ -20,11 +20,11 @@
             speed: 400, // Speed of the effect
             glare: true, // Enables glare effect
             "max-glare": 0.5, // Maximum opacity for glare
-            gyroscope: true,
-            gyroscopeMinAngleX: -6,
-            gyroscopeMaxAngleX: 6,
-            gyroscopeMinAngleY: -6,
-            gyroscopeMaxAngleY: 6,
+            // gyroscope: true,
+            // gyroscopeMinAngleX: -6,
+            // gyroscopeMaxAngleX: 6,
+            // gyroscopeMinAngleY: -6,
+            // gyroscopeMaxAngleY: 6,
         });
     })
 
