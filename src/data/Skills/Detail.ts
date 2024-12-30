@@ -1,4 +1,4 @@
-import { C, CPlus, TypeScript, JavaScript, HTML, CSS, SCSS, UnoCSS, TailwindCSS, Bootstrap, WordPress, Webflow, Svelte, React, Angular, Threejs, MySQL, Postman, VSCode, GitHub, ProjectIDX, Eclipse, IntelliJ } from "../SkillPages/PagesInfo"
+import { C, CPlus, TypeScript, JavaScript, HTML, CSS, SCSS, UnoCSS, TailwindCSS, Bootstrap, WordPress, Webflow, Svelte, React, Angular, Threejs, MySQL, Postman, VSCode, GitHub, ProjectIDX, Eclipse, IntelliJ } from "./SkillsPages"
 
 type Type = {
     Page: any,

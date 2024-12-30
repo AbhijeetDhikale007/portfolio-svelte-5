@@ -1,7 +1,7 @@
 <script lang="ts">
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
-    import { Education } from '../../data/Education/Education'
+    import { Education } from '../../data/Education'
     import { Ico } from '../+components'
 
     let TiltCard: HTMLElement[] = [];
