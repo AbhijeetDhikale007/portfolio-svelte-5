@@ -1,6 +1,6 @@
 <script lang='ts'>
-    import VanillaTilt from "vanilla-tilt";
-    import { onMount } from "svelte";
+    import VanillaTilt from "vanilla-tilt"
+    import { onMount } from "svelte"
     import { PageSkill, SkillInfo } from "../../../store/Store"
     import SkillsInfo from "../../../routes/Skills/Pages/SkillsInfo.svelte"
     import { Ico } from '../../+components'
