@@ -59,16 +59,52 @@
     </div>
     <hr>
     <div class="CP6">
-        <Ico class='Skills' name={project.SVG1} />
-        <Ico class='Skills' name={project.SVG2} />
-        {#if project.SVG3}<Ico class='Skills' name={project.SVG3} />{/if}
-        {#if project.SVG4}<Ico class='Skills' name={project.SVG4} />{/if}
-        {#if project.SVG5}<Ico class='Skills' name={project.SVG5} />{/if}
-        {#if project.SVG6}<Ico class='Skills' name={project.SVG6} />{/if}
-        {#if project.SVG7}<Ico class='Skills' name={project.SVG7} />{/if}
-        {#if project.SVG8}<Ico class='Skills' name={project.SVG8} />{/if}
-        {#if project.SVG9}<Ico class='Skills' name={project.SVG9} />{/if}
-        {#if project.SVG10}<Ico class='Skills' name={project.SVG10} />{/if}
+        <div class='Tooltip' data-title={project.SVG1}>
+            <Ico class='Skills' name={project.SVG1} />
+        </div>
+        <div class='Tooltip' data-title={project.SVG2}>
+            <Ico class='Skills' name={project.SVG2} />
+        </div>
+        {#if project.SVG3}
+        <div class='Tooltip' data-title={project.SVG3}>
+            <Ico class='Skills' name={project.SVG3} />
+        </div>
+        {/if}
+        {#if project.SVG4}
+        <div class='Tooltip' data-title={project.SVG4}>
+            <Ico class='Skills' name={project.SVG4} />
+        </div>
+        {/if}
+        {#if project.SVG5}
+        <div class='Tooltip' data-title={project.SVG5}>
+            <Ico class='Skills' name={project.SVG5} />
+        </div>
+        {/if}
+        {#if project.SVG6}
+        <div class='Tooltip' data-title={project.SVG6}>
+            <Ico class='Skills' name={project.SVG6} />
+        </div>
+        {/if}
+        {#if project.SVG7}
+        <div class='Tooltip' data-title={project.SVG7}>
+            <Ico class='Skills' name={project.SVG7} />
+        </div>
+        {/if}
+        {#if project.SVG8}
+        <div class='Tooltip' data-title={project.SVG8}>
+            <Ico class='Skills' name={project.SVG8} />
+        </div>
+        {/if}
+        {#if project.SVG9}
+        <div class='Tooltip' data-title={project.SVG9}>
+            <Ico class='Skills' name={project.SVG9} />
+        </div>
+        {/if}
+        {#if project.SVG10}
+        <div class='Tooltip' data-title={project.SVG10}>
+            <Ico class='Skills' name={project.SVG10} />
+        </div>
+        {/if}
     </div>
 </div>
 {/each}
