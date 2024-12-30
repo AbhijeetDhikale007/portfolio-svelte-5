@@ -21,10 +21,10 @@
             glare: true, // Enables glare effect
             "max-glare": 0.5, // Maximum opacity for glare
             gyroscope: true,
-            gyroscopeMinAngleX: -18,
-            gyroscopeMaxAngleX: 18,
-            gyroscopeMinAngleY: -18,
-            gyroscopeMaxAngleY: 18,
+            gyroscopeMinAngleX: -12,
+            gyroscopeMaxAngleX: 12,
+            gyroscopeMinAngleY: -12,
+            gyroscopeMaxAngleY: 12,
         });
     })
 
