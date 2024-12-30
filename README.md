@@ -2,7 +2,7 @@
 
 ![Portfolio Screenshot](/public/Screenshot.png)
 
-A more advanced personal portfolio website created using Svelte 5, UnoCSS, lenis, and a collection of other technologies. This website showcases my skills and education.
+A more advanced personal portfolio website created using Svelte 5, UnoCSS, lenis, and a collection of other technologies. This website showcases my skills, projects and education.
 
 ## Published from IDX
 
