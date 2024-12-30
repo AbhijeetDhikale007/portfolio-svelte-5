@@ -4,7 +4,10 @@
 
 A more advanced personal portfolio website created using Svelte 5, UnoCSS, lenis, and a collection of other technologies. This website showcases my skills and education.
 
-## Published from Google's Project IDX
+## Published from IDX
+
+- This repository is developed in Google's Project IDX and later on published on GitHub.
+- [Project IDX](https://idx.dev) 
 
 ## Deployments
 Vercel - [abhijeetdhikale007.vercel.app](https://abhijeetdhikale007.vercel.app)
@@ -13,13 +16,13 @@ Vercel - [abhijeetdhikale007.vercel.app](https://abhijeetdhikale007.vercel.app)
 
 -   **Home**: A home page.
 -   **Skills**: Listed my skills and expertise.
--   **Education**: My education.
 -   **Projects**: My projects.
+-   **Education**: My education.
 -   **Resume**: Provided my resume.
 
 ## Technologies Used
 
--   [React](https://reactjs.dev) - The main library
+-   [Svelte 5](https://svelte.dev) - The main framework
 -   [UnoCSS](https://unocss.dev/) - Atomic CSS Engine
 -   [Three.js](https://threejs.org) - For 3D Objects
 -   [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
