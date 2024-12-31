@@ -2,23 +2,23 @@
     import { Ico } from '../+components'
 </script>
 
-<a href="https://github.com/AbhijeetDhikale007" class='Tooltip' data-title='GitHub' target="_blank">
+<a href="https://github.com/AbhijeetDhikale007" class='Tooltip' data-title='GitHub' target="_blank" rel='noopener noreferrer'>
     <!-- <img src="Icons/Home/GitHub.svg" alt="GitHub"> -->
     <Ico class='Ico' name='GitHubW'/>
 </a>
-<a href="https://instagram.com/abhijeetdhikale007" class='Tooltip' data-title='Instagram' target="_blank">
+<a href="https://instagram.com/abhijeetdhikale007" class='Tooltip' data-title='Instagram' target="_blank" rel='noopener noreferrer'>
     <!-- <img src="Icons/Home/Instagram.svg" alt="Instagram"> -->
     <Ico class='Ico' name='Instagram'/>
 </a>
-<a href="https://www.linkedin.com/in/abhijeet-dhikale-188016326" class='Tooltip' data-title='LinkedIn' target="_blank">
+<a href="https://www.linkedin.com/in/abhijeet-dhikale-188016326" class='Tooltip' data-title='LinkedIn' target="_blank" rel='noopener noreferrer'>
     <!-- <img src="Icons/Home/LinkedIn.svg" alt="LinkedIn"> -->
     <Ico class='Ico' name='LinkedIn'/>
 </a>
-<a href="https://x.com/abhijeetdhikale" class='Tooltip' data-title='Twitter' target="_blank">
+<a href="https://x.com/abhijeetdhikale" class='Tooltip' data-title='Twitter' target="_blank" rel='noopener noreferrer'>
     <!-- <img src="Icons/Home/Twitter.svg" alt="Twitter"> -->
     <Ico class='Ico' name='Twitter'/>
 </a>
-<a href="https://t.me/AbhijeetDhikale007" class='Tooltip' data-title='Telegram' target="_blank">
+<a href="https://t.me/AbhijeetDhikale007" class='Tooltip' data-title='Telegram' target="_blank" rel='noopener noreferrer'>
     <!-- <img src="Icons/Home/Telegram.svg" alt="Telegram"> -->
     <Ico class='Ico' name='Telegram'/>
 </a>
