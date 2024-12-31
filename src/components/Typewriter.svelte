@@ -43,7 +43,7 @@
 </script>
 
 <div>
-    <h1 class="TypedWriter">{textAnimation}</h1>
+    <p class="TypedWriter">{textAnimation}</p>
 </div>
 
 <style>

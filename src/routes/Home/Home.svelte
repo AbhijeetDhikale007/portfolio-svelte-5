@@ -6,7 +6,7 @@
 
 <div class="Home flex items-center px-5" in:fly={{y: 100, duration: 1000}}>
     <div>
-        <h1>Hi,</h1>
+        <h2>Hi,</h2>
         <h1>I'm Abhijeet Dhikale</h1>
         <Typewriter />
         <div class='Buttons-Container'>
@@ -24,7 +24,7 @@
         @apply lg:flex-row lg:justify-between xl:flex-row xl:justify-between 2xl:flex-row 2xl:justify-between;
         @apply w-[74vw] lg:w-[68vw] pointer-events-none;
 
-        h1 {
+        h1, h2 {
             @apply text-10 md:text-12 lg:text-16 font-bold;
             // background-image: url('Background.jpg');
             // background: cover;
