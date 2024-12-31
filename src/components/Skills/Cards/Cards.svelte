@@ -13,18 +13,20 @@
     let TiltCard: HTMLElement;
 
     onMount(() => {
+        const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
         VanillaTilt.init(TiltCard, {
-            max: 25, // Maximum tilt angle in degrees
-            perspective: 280,
-            scale: 1.08,
-            speed: 400, // Speed of the effect
+            max: isMobile ? 5 : 25, // Maximum tilt angle in degrees
+            perspective: isMobile ? 80 : 280,
+            scale: isMobile ? 1.0 : 1.08,
+            speed: isMobile ? 80 : 400, // Speed of the effect
             glare: true, // Enables glare effect
-            "max-glare": 0.5, // Maximum opacity for glare
+            "max-glare": isMobile ? 0.1 : 0.4, // Maximum opacity for glare
             gyroscope: true,
-            gyroscopeMinAngleX: -6,
-            gyroscopeMaxAngleX: 8,
-            gyroscopeMinAngleY: -6,
-            gyroscopeMaxAngleY: 8,
+            gyroscopeMinAngleX: -40,
+            gyroscopeMaxAngleX: 40,
+            gyroscopeMinAngleY: -40,
+            gyroscopeMaxAngleY: 40,
         });
     })
 
