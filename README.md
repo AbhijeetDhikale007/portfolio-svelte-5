@@ -25,7 +25,7 @@ Vercel - [abhijeetdhikale007.vercel.app](https://abhijeetdhikale007.vercel.app)
 -   [Svelte 5](https://svelte.dev) - The main framework
 -   [UnoCSS](https://unocss.dev/) - Atomic CSS Engine
 -   [Lenis](https://lenis.darkroom.engineering) - Smooth Scrolling
--   [SCSS](https://sass-lang.com) - CSS
+-   [SCSS](https://sass-lang.com) - Sassy Cascading Style Sheets. Popular CSS preprocessor Sass (Syntactically Awesome Style Sheets).
 
 ## Getting started
 
