@@ -44,7 +44,7 @@
                 src="/King.png"
                 alt="King - A Logo"
             /> -->
-            <h1 class='A'>Λ</h1>
+            <h3 class='A'>Λ</h3>
             <pre
                 class="Name">Λ ʙ ʜ ι נ є є τ   Ð ʜ ι κ α ℓ є</pre>
         </div>
@@ -130,6 +130,6 @@
     // }
 
     .A {
-        @apply mr-4 text-black bg-white px-4.8 rounded-3.8 font-semibold;
+        @apply mr-4 text-black bg-white px-4.8 rounded-3.8 text-8.5 font-semibold;
     }
 </style>
