@@ -78,7 +78,7 @@
                                 </button>
                             </div>
                             <div class='grid px-3 mt-3'>
-                                <button class='Menu-Button ml-6 justify-self-end' on:click={() => (isOpen = false)}><img class='w-5 h-5' src="Icons/Close.svg" alt="Close">Close</button>
+                                <button class='Menu-Button ml-6 justify-self-end' on:click={() => (isOpen = false)}><Ico class='w-6 h-6 invert' name='Close' /></button>
                             </div>
                         </div>
                     </div>
