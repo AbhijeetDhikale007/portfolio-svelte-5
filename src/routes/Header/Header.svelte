@@ -2,6 +2,7 @@
     import './Menu.scss'
     import { Home, SkillsPage, Skills, Projects, Education, Resume } from "../../routes/+pages"
     import { Main, PageSkill } from "../../store/Store"
+    import { Ico } from '../../components/+components'
 
     let isOpen: boolean = false
 
@@ -50,29 +51,29 @@
         </div>
         <nav>
             <div class="Menu-Container">
-                <button class='Menu-Button' on:click={() => (MenuHandler())}><img class='w-6 h-6' src="Icons/Menu.svg" alt="Menu"></button>
+                <button class='Menu-Button w-8 h-8' on:click={() => (MenuHandler())}><Ico class='invert' name='Menu' /></button>
                 {#if isOpen == true}
                     <div class='Menu-Wrapper'>
                         <div class='Menu'>
                             <div class='Menu-Buttons-1'>
                                 <button class="Button-Black" on:click={() => (RoutingPhone(Home))}>
-                                  <img src="Icons/Header/Home.svg" alt="Home">
+                                  <Ico class='w-6 h-6' name='Home' />
                                   <p>Home</p>
                                 </button>
                                 <button class="Button-Black" on:click={() => (UpdateSkillPhone())}>
-                                  <img class='SVG' src="Icons/Header/Skills.svg" alt="Skills">
+                                  <Ico class='w-6 h-6' name='Skills' />
                                   <p>Skills</p>
                                 </button>
                                 <button class="Button-Black" on:click={() => (RoutingPhone(Projects))}>
-                                  <img class='SVG' src="Icons/Header/Projects.svg" alt="Projects">
+                                  <Ico class='w-6 h-6' name='Projects' />
                                   <p>Project</p>
                                 </button>
                                 <button class="Button-Black" on:click={() => (RoutingPhone(Education))}>
-                                  <img class='SVG' src="Icons/Header/Education.svg" alt="Education">
+                                  <Ico class='w-6 h-6' name='Education' />
                                   <p>Education</p>
                                 </button>
                                 <button class="Button-Black" on:click={() => (RoutingPhone(Resume))}>
-                                  <img class='SVG' src="Icons/Header/Resume.svg" alt="Resume">
+                                    <Ico class='w-6 h-6' name='Resume' />
                                   <p>Resume</p>
                                 </button>
                             </div>
@@ -115,12 +116,6 @@
             // border: 2px solid red;
             @apply ml-[4vw] lg:ml-[8vw];
             @apply flex pointer-events-none z-1 items-center select-none;
-        }
-
-        .Menu-Buttons-1 {
-            img {
-                @apply h-6 w-6;
-            }
         }
     }
 
