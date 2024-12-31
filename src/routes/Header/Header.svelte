@@ -51,7 +51,7 @@
         </div>
         <nav>
             <div class="Menu-Container">
-                <button class='Menu-Button w-8 h-8' on:click={() => (MenuHandler())}><Ico class='invert' name='Menu' /></button>
+                <button class='Menu-Button w-10 h-10' on:click={() => (MenuHandler())}><Ico class='invert' name='Menu' /></button>
                 {#if isOpen == true}
                     <div class='Menu-Wrapper'>
                         <div class='Menu'>
