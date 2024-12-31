@@ -9,7 +9,7 @@
     onMount(() => {
     TiltCard.forEach((card: HTMLElement) => {
       VanillaTilt.init(card, {
-        max: 25, // Maximum tilt angle in degrees
+        max: 18, // Maximum tilt angle in degrees
         speed: 400, // Speed of the effect
         glare: true, // Enables glare effect
         "max-glare": 0.5, // Maximum opacity for glare
