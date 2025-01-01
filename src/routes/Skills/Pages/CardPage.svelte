@@ -69,10 +69,6 @@
             @apply flex justify-center items-center;
             @apply h-32 w-32;
             @apply lg:w-75 lg:h-75;
-
-            img {
-                @apply h-100% w-100%;
-            }
         }
 
         .Info {
