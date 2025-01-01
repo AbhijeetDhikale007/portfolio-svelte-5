@@ -19,99 +19,99 @@
     }
 
     .SVG {
-        @apply grid justify-end rounded-5 w-32 h-100% px-0.2 overflow-hidden;
+        @apply w-fit;
         // border: 2px solid #fff;
     }
 
     .C {
-        background: linear-gradient(to right, transparent 0%, #394AAB 100%);
+        filter: drop-shadow(-52px 0 36px #394aab);
     }
 
     .CPlus {
-        background: linear-gradient(to right, transparent 0%, #00599C 100%);
+        filter: drop-shadow(-52px 0 36px #00599C);
     }
 
     .TypeScript {
-        background: linear-gradient(to right, transparent 0%, #00599C 100%);
+        filter: drop-shadow(-52px 0 36px #00599C);
     }
 
     .Javascript {
-        background: linear-gradient(to right, transparent 0%, #F0DB4F 100%);
+        filter: drop-shadow(-52px 0 36px #F0DB4F);
     }
 
     .HTML {
-        background: linear-gradient(to right, transparent 0%, #E14E1D 100%);
+        filter: drop-shadow(-52px 0 36px #e14e1d);
     }
 
     .CSS {
-        background: linear-gradient(to right, transparent 0%, #0277BD 100%);
+        filter: drop-shadow(-52px 0 36px #0277bd);
     }
 
     .SCSS {
-        background: linear-gradient(to right, transparent 0%, #5f3d4e 100%);
+        filter: drop-shadow(-52px 0 36px #cd6799);
     }
 
     .Tailwind {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #38bdf8);
     }
 
     .UnoCSS {
-        background: linear-gradient(to right, transparent 0%, #4D4D4D 100%);
+        filter: drop-shadow(-52px 0 36px #858585);
     }
 
     .Bootstrap {
-        background: linear-gradient(to right, transparent 0%, #7811F7 100%);
+        filter: drop-shadow(-52px 0 36px #7811F7);
     }
 
     .Wordpress {
-        background: linear-gradient(to right, transparent 0%, #0073AA 100%);
+        filter: drop-shadow(-52px 0 36px #0073AA);
     }
 
     .Webflow {
-        background: linear-gradient(to right, transparent 0%, #0073AA 100%);
+        filter: drop-shadow(-52px 0 36px #4353ff);
     }
 
     .Svelte {
-        background: linear-gradient(to right, transparent 0%, #791f01 100%);
+        filter: drop-shadow(-52px 0 36px #791f01);
     }
 
     .React {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #61dafb);
     }
 
     .Angular {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #8b11f0);
     }
 
     .Threejs {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #ffffff);
     }
 
     .MySQL {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #00738d);
     }
 
     .Postman {
-        background: linear-gradient(to right, transparent 0%, #FF6C37 100%);
+        filter: drop-shadow(-52px 0 36px #FF6C37);
     }
 
     .VSCode {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #48aef2);
     }
 
     .GitHub {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #242938);
     }
 
     .ProjectIDX {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #473477);
     }
 
     .Eclipse {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #2c2255);
     }
 
     .InteliJ {
-        background: linear-gradient(to right, transparent 0%, #242938 100%);
+        filter: drop-shadow(-52px 0 36px #087cfa);
     }
 }
