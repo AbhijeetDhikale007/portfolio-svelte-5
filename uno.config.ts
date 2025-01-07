@@ -26,6 +26,10 @@ export default defineConfig({
         presetWebFonts({
             fonts: {
                 // ...
+                sans: {
+                    name: 'Roboto Condensed',
+                    weights: ['400', '500', '700']
+                }
             },
         }),
     ],
