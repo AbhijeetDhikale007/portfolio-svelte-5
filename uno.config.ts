@@ -28,7 +28,7 @@ export default defineConfig({
                 // ...
                 sans: {
                     name: 'Roboto Condensed',
-                    weights: ['400', '500', '700']
+                    weights: [ '300', '400', '500', '700', '800']
                 }
             },
         }),
