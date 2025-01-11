@@ -1,9 +1,10 @@
 <script lang='ts'>
     import { fly } from 'svelte/transition'
+    import { cubicIn } from 'svelte/easing'
     import { Heading } from '../../components/+components'
 </script>
 
-<div class='Resume' in:fly={{y: 100, duration: 1000}}>
+<div class='Resume' in:fly={{ easing: cubicIn, y: -50, duration: 800 }}>
     <Heading HeadingTitle='Resume' />
     <div class='Buttons-Div'>
         <a class='Button-white' href="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" target="_blank" type='file/pdf'>View</a>
