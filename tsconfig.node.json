@@ -7,7 +7,6 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "noEmit": false,
-    "noUncheckedSideEffectImports": true
   },
   "include": ["vite.config.ts"]
 }
