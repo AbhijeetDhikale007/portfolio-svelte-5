@@ -4,7 +4,7 @@
     import { Heading } from '../../components/+components'
 </script>
 
-<div class='Resume' in:fly={{ easing: cubicIn, y: -130, duration: 1200 }}>
+<div class='Resume' in:fly={{ easing: cubicIn, y: -100, duration: 1200 }}>
     <Heading HeadingTitle='Resume' />
     <div class='Buttons-Div'>
         <a class='Button-white' href="Documents/Abhijeet-Prakash-Dhikale-Resume.pdf" target="_blank" type='file/pdf'>View</a>

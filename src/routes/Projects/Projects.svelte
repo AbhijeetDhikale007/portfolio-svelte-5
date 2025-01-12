@@ -1,11 +1,12 @@
 <script lang=ts>
     import { fly } from 'svelte/transition'
+    import { cubicIn } from 'svelte/easing'
     import { Heading } from '../../components/+components';
     import { CardProject } from '../../components/+components';
     import './Projects.scss'
 </script>
 
-<div class='Projects' in:fly={{x: 100, duration: 1000}}>
+<div class='Projects' in:fly={{ easing: cubicIn, x: 100, duration: 1200 }}>
     <Heading HeadingTitle='Projects' />
     <div class='Pro'>
         <CardProject />

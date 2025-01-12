@@ -1,12 +1,13 @@
 <script lang="ts">
     import { fly } from 'svelte/transition'
+    import { cubicIn } from 'svelte/easing'
     import { Heading } from '../../components/+components';
     import { CardDiv } from "../../components/+components";
     import { Card1, Card2, Card3, Card4, Card5, Card6, Card7 } from '../../components/+components'
     import './Card.scss'
 </script>
 
-<div class="Skills" in:fly={{x: -100, duration: 1000}}>
+<div class="Skills" in:fly={{ easing: cubicIn, x: -100, duration: 1200 }}>
     <Heading HeadingTitle='Skills' />
     <CardDiv HRName='Programming Languages'>
         <div slot="Wrapper">

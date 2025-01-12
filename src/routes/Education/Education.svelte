@@ -1,10 +1,11 @@
 <script lang='ts'>
     import { fly } from 'svelte/transition'
+    import { cubicIn } from 'svelte/easing'
     import { Heading } from '../../components/+components';
     import { EducationCard as Card } from '../../components/+components';
 </script>
 
-<div class='Education' in:fly={{y: 100, duration: 1000}}>
+<div class='Education'  in:fly={{ easing: cubicIn, y: 100, duration: 1200 }}>
     <Heading HeadingTitle='Education' />
     <div class='EduDivWrap'>
         <div class='HR'></div>

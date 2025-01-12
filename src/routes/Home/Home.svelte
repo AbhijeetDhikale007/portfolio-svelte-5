@@ -1,10 +1,11 @@
 <script lang="ts">
     import { Typewriter } from '../../components/+components';
     import { fly } from 'svelte/transition'
+    import { cubicIn } from 'svelte/easing'
     import { Icons, Carousel } from '../../components/+components'
 </script>
 
-<div class="Home flex items-center px-5" in:fly={{y: 100, duration: 1000}}>
+<div class="Home flex items-center px-5"  in:fly={{ easing: cubicIn, y: 100, duration: 1200 }}>
     <div>
         <h2>Hi,</h2>
         <h1>I'm Abhijeet Dhikale</h1>

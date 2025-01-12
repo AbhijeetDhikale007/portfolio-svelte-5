@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { fly } from "svelte/transition";
-  import { Header } from "./routes/+pages"
-  import { Main } from "./store/Store";
+  import { fly } from 'svelte/transition'
+  import { Header } from './routes/+pages'
+  import { Main } from './store/Store'
   import Lenis from 'lenis'
 
   // Lenis - Smooth Scrolling
