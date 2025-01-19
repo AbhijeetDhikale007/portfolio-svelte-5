@@ -1,4 +1,4 @@
-import { C, CPlus, TypeScript, JavaScript, HTML, CSS, SCSS, UnoCSS, TailwindCSS, Bootstrap, WordPress, Webflow, Svelte, React, Angular, Threejs, MySQL, Postman, VSCode, GitHub, ProjectIDX, Eclipse, IntelliJ } from "./SkillsPages"
+import { PHP, C, CPlus, TypeScript, JavaScript, HTML, CSS, SCSS, UnoCSS, TailwindCSS, Bootstrap, WordPress, Webflow, Svelte, React, Angular, Threejs, MySQL, Postman, VSCode, GitHub, ProjectIDX, Eclipse, IntelliJ } from "./SkillsPages"
 
 type Type = {
     Page: any,
@@ -8,6 +8,7 @@ type Type = {
 }[]
 
 const Skill1: Type = [
+    { Page: PHP , name: 'PHP', class: 'SVG PHP', SVG: 'PHP' },
     { Page: C , name: 'C', class: 'SVG C', SVG: 'CLang' },
     { Page: CPlus, name: 'C++', class: 'SVG CPlus', SVG: 'CPlus' },
     { Page: TypeScript, name: 'TypeScript', class: 'SVG TypeScript', SVG: 'TypeScript' },
