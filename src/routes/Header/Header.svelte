@@ -1,5 +1,6 @@
 <script lang="ts">
     import './Menu.scss'
+    import { fly } from 'svelte/transition'
     import { Home, SkillsPage, Skills, Projects, Education, Resume } from "../../routes/+pages"
     import { Main, PageSkill } from "../../store/Store"
     import { Ico } from '../../components/+components'
@@ -37,7 +38,7 @@
     }
 </script>
 
-<div class='z-4'>
+<div class='z-4' in:fly={{y: -100, duration: 1000}}>
     <div class="Header">
         <div class="HeaderDiv">
             <!-- <img

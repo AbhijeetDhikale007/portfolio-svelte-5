@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { fly } from 'svelte/transition'
   import { Header } from './routes/+pages'
   import { Main } from './store/Store'
   import Lenis from 'lenis'
@@ -10,7 +9,7 @@
   });
 </script>
 
-<header class="fixed top-0 z-2" in:fly={{y: -100, duration: 1000}}>
+<header class="fixed top-0 z-2">
   <Header />
 </header>
 <main class='z-1'>
