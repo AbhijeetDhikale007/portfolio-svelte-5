@@ -10,7 +10,7 @@
     <!-- <img src="Icons/Home/Instagram.svg" alt="Instagram"> -->
     <Ico class='Ico' name='Instagram'/>
 </a>
-<a href="https://www.linkedin.com/in/abhijeet-dhikale-188016326" class='Tooltip' data-title='LinkedIn' target="_blank" rel='noopener noreferrer'>
+<a href="https://www.linkedin.com/in/abhijeet-dhikale" class='Tooltip' data-title='LinkedIn' target="_blank" rel='noopener noreferrer'>
     <!-- <img src="Icons/Home/LinkedIn.svg" alt="LinkedIn"> -->
     <Ico class='Ico' name='LinkedIn'/>
 </a>
