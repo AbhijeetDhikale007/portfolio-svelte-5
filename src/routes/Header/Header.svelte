@@ -69,6 +69,10 @@
                                   <Ico class='w-6 h-6' name='Projects' />
                                   <p>Project</p>
                                 </button>
+                                <button class="Button-Black" on:click={() => (RoutingPhone(Experience))}>
+                                    <Ico class='w-6 h-6' name='Experience' />
+                                    <p>Experience</p>
+                                  </button>  
                                 <button class="Button-Black" on:click={() => (RoutingPhone(Education))}>
                                   <Ico class='w-6 h-6' name='Education' />
                                   <p>Education</p>
