@@ -1,7 +1,7 @@
 <script lang="ts">
     import './Menu.scss'
     import { fly } from 'svelte/transition'
-    import { Home, SkillsPage, Skills, Projects, Education, Resume } from "../../routes/+pages"
+    import { Home, SkillsPage, Skills, Projects, Experience, Education, Resume } from "../../routes/+pages"
     import { Main, PageSkill } from "../../store/Store"
     import { Ico } from '../../components/+components'
 
@@ -89,6 +89,7 @@
                 <button class='Button' class:active={$Main === Home} on:click={() => (Routing(Home))}>Home</button>
                 <button class='Button' class:active={$Main === SkillsPage} on:click={() => (UpdateSkill())}>Skills</button>
                 <button class='Button' class:active={$Main === Projects} on:click={() => (Routing(Projects))}>Projects</button>
+                <button class='Button' class:active={$Main === Experience} on:click={() => (Routing(Experience))}>Experience</button>
                 <button class='Button' class:active={$Main === Education} on:click={() => (Routing(Education))}>Education</button>
                 <button class='Button' class:active={$Main === Resume} on:click={() => (Routing(Resume))}>Resume</button>
             </div>            
