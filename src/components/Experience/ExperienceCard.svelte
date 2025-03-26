@@ -39,6 +39,11 @@
         <h4>{card.Duration}</h4>
     </div>
     <hr />
+    <div class="CardDiv px-2 text-justify">
+        <!-- <div class="IconDiv"><Ico name='Time' /></div> -->
+        <h5>{card.Details}</h5>
+    </div>
+    <hr />
     <div class="LastDiv">
         <a class="ButtonCard Tooltip" href={card.CertificateUrl} data-title='Certificate' target='_blank'><Ico name='Certificate' /></a>
     </div>
