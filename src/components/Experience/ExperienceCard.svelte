@@ -1,7 +1,7 @@
 <script lang="ts">
     import VanillaTilt from "vanilla-tilt";
     import { onMount } from "svelte";
-    import { Education } from '../../data/Education'
+    import { Experience } from '../../data/Experience'
     import { Ico } from '../+components'
 
     let TiltCard: HTMLElement[] = [];
@@ -18,11 +18,11 @@
   });
 </script>
 
-{#each Education as card, index}
+{#each Experience as card, index}
 <div class={card.CardClass} bind:this={TiltCard[index]}>
     <img class='Logo' src={card.imgUrl} alt={card.imgAlt} />
-    <h2>{card.Degree}</h2>
-    <h3 class="pb-2">{card.Name}</h3>
+    <h2>{card.Title}</h2>
+    <h3 class="pb-2">{card.Company}</h3>
     <hr />
     <div class="CardDiv">
         <div class="IconDiv"><Ico name='Location' /></div>
