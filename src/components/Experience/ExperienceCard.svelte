@@ -41,7 +41,7 @@
     <hr />
     <div class="CardDiv px-2 text-justify">
         <!-- <div class="IconDiv"><Ico name='Time' /></div> -->
-        <h5>{card.Details}</h5>
+        <p class='font-4'>{card.Details}</p>
     </div>
     <hr />
     <div class="LastDiv">
