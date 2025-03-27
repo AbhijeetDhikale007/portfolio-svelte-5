@@ -39,7 +39,7 @@
         <h4>{card.Duration}</h4>
     </div>
     <hr />
-    <div class="CardDiv px-2 text-justify">
+    <div class="CardDiv px-3 text-justify">
         <!-- <div class="IconDiv"><Ico name='Time' /></div> -->
         <p class='font-4'>{card.Details}</p>
     </div>
