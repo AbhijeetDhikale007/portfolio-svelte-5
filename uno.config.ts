@@ -26,9 +26,13 @@ export default defineConfig({
         presetWebFonts({
             fonts: {
                 // ...
-                sans: {
+                Roboto: {
                     name: 'Roboto Condensed',
                     weights: [ '300', '400', '500', '700', '800']
+                },
+                Arsenal: {
+                    name: 'Arsenal SC',
+                    weights: [ '800' ]
                 }
             },
         }),
