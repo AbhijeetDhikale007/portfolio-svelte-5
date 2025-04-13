@@ -4,6 +4,10 @@
 
 A more advanced personal portfolio website created using Svelte 5, UnoCSS, lenis, and a collection of other technologies. This website showcases my skills, projects and education.
 
+## Page Speed Insights
+
+Link - [PageSpeed](https://pagespeed.web.dev/analysis/https-abhijeetdhikale007-vercel-app/s6o0l7s56m?form_factor=desktop)
+
 ## Published from IDX
 
 - This repository is developed in Google's Project IDX and later on published on GitHub.
