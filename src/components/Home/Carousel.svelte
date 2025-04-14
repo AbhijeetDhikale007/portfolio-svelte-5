@@ -48,7 +48,7 @@
     <Ico name='MySQL' />
   </SplideSlide>
   <SplideSlide>
-    <Ico name='CLang' />
+    <Ico name='PHP' />
   </SplideSlide>
 </Splide>
 </div>
