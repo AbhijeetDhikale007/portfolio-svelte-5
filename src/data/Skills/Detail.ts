@@ -1,4 +1,4 @@
-import { PHP, C, CPlus, TypeScript, JavaScript, HTML, CSS, SCSS, UnoCSS, TailwindCSS, Bootstrap, WordPress, Webflow, Svelte, React, Angular, Threejs, MySQL, Postman, VSCode, GitHub, ProjectIDX, Eclipse, IntelliJ } from "./SkillsPages"
+import { PHP, C, CPlus, TypeScript, JavaScript, HTML, CSS, SCSS, UnoCSS, TailwindCSS, Bootstrap, WordPress, Webflow, Svelte, React, Angular, Threejs, MySQL, Postman, VSCode, GitHub, Firebase, Eclipse, IntelliJ } from "./SkillsPages"
 
 type Type = {
     Page: any,
@@ -47,7 +47,8 @@ const Skill6: Type = [
 const Skill7: Type = [
     { Page: VSCode, name: 'VSCode', class: 'SVG VSCode', SVG: 'VSCode' },
     { Page: GitHub, name: 'GitHub', class: 'SVG GitHub', SVG: 'GitHub' },
-    { Page: ProjectIDX, name: 'Project IDX', class: 'SVG ProjectIDX', SVG: 'IDX' },
+    // { Page: ProjectIDX, name: 'Project IDX', class: 'SVG ProjectIDX', SVG: 'IDX' },
+    { Page: Firebase, name: 'Firebase Studio', class: 'SVG Firebase', SVG: 'Firebase' },
     { Page: Eclipse, name: 'Eclipse', class: 'SVG Eclipse', SVG: 'Eclipse' },
     { Page: IntelliJ, name: 'IntelliJ', class: 'SVG InteliJ', SVG: 'IntelliJ' },
 ]
