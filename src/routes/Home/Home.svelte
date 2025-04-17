@@ -26,7 +26,7 @@
         @apply w-[74vw] lg:w-[68vw] pointer-events-none;
 
         h1, h2 {
-            @apply text-10 md:text-12 lg:text-16 font-bold;
+            @apply text-10 md:text-12 lg:text-15 font-bold;
             // background-image: url('Background.jpg');
             // background: cover;
             // -webkit-text-fill-color: transparent;
