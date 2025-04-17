@@ -99,13 +99,13 @@
             }
 
             button {
-                border: 1px solid #fff;
+                border: .5px solid #fff;
                 @apply border-rounded-3 text-6 p-3 w-12.5 h-12.5;
-                @apply flex items-center bg-white text-black;
+                @apply flex items-center bg-white text-black cursor-pointer;
             }
 
             button:hover {
-                border: 1px solid #000;
+                border: .5px solid #000;
                 filter: invert(1);
             }
         }
