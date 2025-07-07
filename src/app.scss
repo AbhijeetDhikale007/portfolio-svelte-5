@@ -46,6 +46,8 @@
   background: rgb(50, 50, 50, .4);
 }
 
+// --------- Scrollbar ---------
+
 // ::-webkit-scrollbar {
 //     background: rgb(0, 0, 0);
 //     width: 14px;
@@ -83,14 +85,16 @@
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 9px;
   background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-  // border-radius: 10px;
+  border-radius: 12px;
   background-color: #2c29d6;
 }
+
+// --------- Lenis ---------
 
 html.lenis, html.lenis body {
   height: auto;
