@@ -13,7 +13,8 @@ Link - [PageSpeed](https://pagespeed.web.dev/analysis/https-abhijeetdhikale007-v
 ## Published from IDX
 
 - This repository is developed in Google's Project IDX and later on published on GitHub.
-- [Project IDX](https://idx.dev) 
+- [Project IDX](https://idx.dev)
+- Now it's [Firebase Studio](https://studio.firebase.google.com)
 
 ## Deployments
 Vercel - [abhijeetdhikale007.vercel.app](https://abhijeetdhikale007.vercel.app)
