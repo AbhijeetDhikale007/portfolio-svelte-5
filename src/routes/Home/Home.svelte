@@ -39,7 +39,7 @@
         // }
 
         .Buttons-Container {
-            @apply flex gap-2 mt-8 items-center select-none;
+            @apply flex flex-row gap-2 mt-8 max-w-fit items-center select-none;
 
             :global(.Ico) {
                 filter:invert(1);
